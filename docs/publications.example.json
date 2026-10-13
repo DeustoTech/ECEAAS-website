@@ -1,0 +1,56 @@
+[
+  {
+    "id": "example-article-2026",
+    "type": "article-journal",
+    "title": "[EXAMPLE] A cognitive framework for ambient assisted living",
+    "author": [
+      { "family": "Doe", "given": "Jane" },
+      { "family": "Roe", "given": "Richard" }
+    ],
+    "issued": { "date-parts": [[2026, 3, 12]] },
+    "container-title": "Journal of Example Studies",
+    "volume": "12",
+    "issue": "3",
+    "page": "101-118",
+    "publisher": "Example Press",
+    "DOI": "10.1234/example.2026.0001",
+    "URL": "https://doi.org/10.1234/example.2026.0001",
+    "ISSN": "1234-5678",
+    "abstract": "Example abstract. Replace it with the real abstract of the paper (plain text, no HTML).",
+    "keyword": "ambient assisted living, cognitive environments, IoT",
+    "language": "en",
+    "custom": {
+      "subproject": ["COG"],
+      "wp": ["WP5"],
+      "openAccess": true,
+      "featured": false,
+      "links": [{ "label": "Code", "url": "https://github.com/example/repo" }]
+    }
+  },
+  {
+    "id": "example-conference-2026",
+    "type": "paper-conference",
+    "title": "[EXAMPLE] Low-power 6G sensing for elderly care",
+    "author": [{ "family": "Doe", "given": "Jane" }],
+    "issued": { "date-parts": [[2026, 6]] },
+    "container-title": "Proceedings of the Example Conference",
+    "event-title": "Example Conference 2026",
+    "event-place": "Bilbao, Spain",
+    "page": "45-52",
+    "DOI": "10.1234/example.2026.0002",
+    "keyword": "6G, sensing",
+    "language": "en",
+    "custom": { "subproject": ["ISAC", "DATA"], "wp": ["WP3"], "openAccess": false }
+  },
+  {
+    "id": "example-thesis-2025",
+    "type": "thesis",
+    "title": "[EXAMPLE] Explainable AI for personalised care recommendations",
+    "author": [{ "family": "Doe", "given": "John" }],
+    "issued": { "date-parts": [[2025]] },
+    "publisher": "Universidad de Deusto",
+    "genre": "PhD thesis",
+    "URL": "https://example.org/thesis",
+    "custom": { "subproject": ["DATA"], "wp": ["WP4"] }
+  }
+]

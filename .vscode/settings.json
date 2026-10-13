@@ -1,0 +1,8 @@
+{
+  "json.schemas": [
+    {
+      "fileMatch": ["public/data/publications.json", "docs/publications.example.json"],
+      "url": "./docs/publications.schema.json"
+    }
+  ]
+}
