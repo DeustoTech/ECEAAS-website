@@ -1,47 +1,51 @@
 # ECEAAS Website
 
-> **Entornos Cognitivos para el Envejecimiento Autónomo, Activo y Saludable**  
-> Cognitive Environments for healthy, autonomous, and active aging
+> **Cognitive Environments for Autonomous, Active and Healthy Aging**  
+> (Spanish: *Entornos Cognitivos para el Envejecimiento Autónomo, Activo y Saludable*)
 
-Sitio web oficial del proyecto ECEAAS — financiado por el Plan Estatal de Investigación Científica, Técnica y de Innovación (Proyectos de Generación de Conocimiento 2024).
+Official website of the ECEAAS project, funded by the Spanish State Plan for Scientific, Technical and Innovation Research (Knowledge Generation Projects 2024).
 
 `PID2024-158490OB-C31 · PID2024-158490OB-C32 · PID2024-158490OB-C33`
 
 ---
 
-## Stack técnico
+## Tech stack
 
-| Herramienta | Versión | Propósito |
+| Tool | Version | Purpose |
 |---|---|---|
-| [Vue 3](https://vuejs.org/) | ^3.4 | Framework principal (Composition API) |
-| [Vite](https://vite.dev/) | ^5 | Build tool + dev server |
-| [Vue Router 4](https://router.vuejs.org/) | ^4 | Rutas SEO-friendly con history mode |
-| [vue-i18n](https://vue-i18n.intlify.dev/) | ^11 | Internacionalización ES / EN |
-| Vanilla CSS | — | Estilos (sin frameworks externos) |
+| [Vue 3](https://vuejs.org/) | ^3.5 | Main framework (Composition API) |
+| [Vite](https://vite.dev/) | ^8 | Build tool + dev server |
+| [Vue Router 4](https://router.vuejs.org/) | ^4.6 | SEO-friendly routes with history mode |
+| [vue-i18n](https://vue-i18n.intlify.dev/) | ^11 | ES / EN internationalization |
+| Vanilla CSS | — | Styling (no external frameworks) |
+| Docker + nginx | — | Containerized production build |
 
 ---
 
-## Estructura del proyecto
+## Project structure
 
 ```
 web/
 ├── public/
-│   ├── assets/             ← Imágenes (fotos equipo, logos)
-│   └── 404.html            ← Fallback SPA para hosting estático
+│   ├── assets/             ← Images (team photos, logos)
+│   └── 404.html            ← SPA fallback for static hosting
 ├── src/
 │   ├── assets/styles/
-│   │   ├── main.css        ← Design tokens, reset, tipografía
-│   │   ├── components.css  ← Estilos componentes reutilizables
-│   │   └── sections.css    ← Estilos por vista/sección
+│   │   ├── main.css        ← Design tokens, reset, typography
+│   │   ├── components.css  ← Reusable component styles
+│   │   └── sections.css    ← Per-view / per-section styles
 │   ├── components/
 │   │   ├── layout/
-│   │   │   ├── AppHeader.vue   ← Header fijo + nav + toggle ES/EN
-│   │   │   └── AppFooter.vue   ← Footer oscuro
+│   │   │   ├── AppHeader.vue   ← Fixed header + nav + ES/EN toggle
+│   │   │   └── AppFooter.vue   ← Dark footer
+│   │   ├── legal/
+│   │   │   └── LegalDocument.vue
 │   │   ├── ui/
 │   │   │   ├── ObjectiveCard.vue
 │   │   │   ├── SubprojectCard.vue
 │   │   │   ├── TeamMemberCard.vue
-│   │   │   └── WorkPackageItem.vue
+│   │   │   ├── WorkPackageItem.vue
+│   │   │   └── WpDistributionTable.vue
 │   │   └── sections/
 │   │       ├── HeroSection.vue
 │   │       └── UniversityLogos.vue
@@ -49,15 +53,21 @@ web/
 │   │   ├── HomeView.vue
 │   │   ├── ProjectView.vue
 │   │   ├── TeamView.vue
-│   │   └── PublicationsView.vue  ← "Próximamente"
-│   ├── router/index.js     ← Rutas + meta SEO + guard locale
+│   │   ├── PublicationsView.vue   ← "Coming soon"
+│   │   ├── LegalNoticeView.vue
+│   │   ├── PrivacyPolicyView.vue
+│   │   └── CookiePolicyView.vue
+│   ├── router/index.js     ← Routes + SEO meta + locale guard
 │   ├── i18n/
-│   │   ├── index.js        ← Setup vue-i18n
+│   │   ├── index.js        ← vue-i18n setup
 │   │   └── locales/
-│   │       ├── es.json     ← Todos los textos en español
-│   │       └── en.json     ← Todos los textos en inglés
+│   │       ├── es.json     ← All Spanish texts
+│   │       └── en.json     ← All English texts
 │   ├── App.vue
 │   └── main.js
+├── Dockerfile
+├── docker-compose.yml
+├── nginx.conf
 ├── index.html
 ├── vite.config.js
 └── README.md
@@ -65,32 +75,38 @@ web/
 
 ---
 
-## Rutas (SEO-friendly)
+## Routes (SEO-friendly)
 
-| URL | Vista | Idioma |
+| URL | View | Language |
 |---|---|---|
-| `/` | Redirect a `/es/` | — |
-| `/es/` | Inicio | Español |
-| `/es/proyecto` | Proyecto | Español |
-| `/es/equipo` | Equipo | Español |
-| `/es/publicaciones` | Publicaciones (proximamente) | Español |
+| `/` | Redirect to `/es/` | — |
+| `/es/` | Home | Spanish |
+| `/es/proyecto` | Project | Spanish |
+| `/es/equipo` | Team | Spanish |
+| `/es/publicaciones` | Publications (coming soon) | Spanish |
+| `/es/aviso-legal` | Legal notice | Spanish |
+| `/es/privacidad` | Privacy policy | Spanish |
+| `/es/cookies` | Cookie policy | Spanish |
 | `/en/` | Home | English |
 | `/en/project` | Project | English |
 | `/en/team` | Team | English |
 | `/en/publications` | Publications (coming soon) | English |
+| `/en/legal-notice` | Legal notice | English |
+| `/en/privacy-policy` | Privacy policy | English |
+| `/en/cookies` | Cookie policy | English |
 
 ---
 
-## Desarrollo local
+## Local development
 
 ```bash
 npm install
 npm run dev
 ```
 
-La aplicación se sirve en `http://localhost:5173/`.
+The app is served at `http://localhost:5173/`.
 
-## Build de producción
+## Production build
 
 ```bash
 npm run build
@@ -99,31 +115,48 @@ npm run preview
 
 ---
 
-## Internacionalización (i18n)
+## Docker
 
-Todos los textos están en:
-- `src/i18n/locales/es.json` — Español
+Run these commands from the `web/` folder.
+
+```bash
+# Production (nginx) → http://localhost:8080  (change with WEB_PORT)
+docker compose up -d --build
+
+# Development (Vite with hot reload) → http://localhost:5173
+docker compose --profile dev up dev
+```
+
+The `Dockerfile` has four stages: `deps`, `dev`, `build` and `prod`. `nginx.conf` rewrites unknown paths to `index.html` (SPA history mode) and caches `/assets/` for one year.
+
+---
+
+## Internationalization (i18n)
+
+All texts live in:
+- `src/i18n/locales/es.json` — Spanish
 - `src/i18n/locales/en.json` — English
 
-Para actualizar textos: edita directamente los JSON. La estructura de claves refleja la jerarquía de secciones (`home`, `project`, `team`, `publications`).
+To update texts, edit the JSON files directly. The key structure mirrors the section hierarchy (`home`, `project`, `team`, `publications`, and the legal pages).
 
-### Agregar un nuevo miembro al equipo
+### Adding a new team member
 
-1. Añadir la foto en `public/assets/`
-2. Editar ambos JSON: localiza `team.institutions[n].pis` (IPs con foto) o `team.institutions[n].researchers` (lista de nombres)
-
----
-
-## Despliegue
-
-- **Netlify / Vercel**: configura reescritura de todas las rutas a `index.html`
-- **GitHub Pages**: el archivo `public/404.html` actúa como fallback SPA
+1. Add the photo to `public/assets/`.
+2. Edit both JSON files: find `team.institutions[n].pis` (PIs with photo) or `team.institutions[n].researchers` (list of names).
 
 ---
 
-## Universidades participantes
+## Deployment
 
-| Institución | Subproyecto | Grupo |
+- **Docker**: see the Docker section above.
+- **Netlify / Vercel**: configure a rewrite of all routes to `index.html`.
+- **GitHub Pages**: `public/404.html` acts as the SPA fallback.
+
+---
+
+## Participating universities
+
+| Institution | Subproject | Group |
 |---|---|---|
 | Universitat Rovira i Virgili | ECEAAS-COG | Smart Technologies Research Group |
 | Universidad Pública de Navarra | ECEAAS-ISAC | Distributed Systems Group |
