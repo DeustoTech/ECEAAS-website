@@ -1,21 +1,10 @@
 <template>
-  <!-- =====================================================
-    LegalDocument — generic renderer for a legal page
-    (legal notice, privacy policy, cookie policy),
-    reading title/updated/sections from an i18n key.
-  ====================================================== -->
   <main>
+    <PageHero :eyebrow="$t('footer.legal')" :title="$t(`${i18nKey}.title`)" :lead="$t(`${i18nKey}.updated`)" />
     <section class="legal-section">
       <div class="container legal-container">
         <router-link :to="homePath" class="legal-back">{{ $t('legal.backLink') }}</router-link>
-        <h1 class="legal-title">{{ $t(`${i18nKey}.title`) }}</h1>
-        <p class="legal-updated">{{ $t(`${i18nKey}.updated`) }}</p>
-
-        <div
-          v-for="(section, i) in sections"
-          :key="i"
-          class="legal-block"
-        >
+        <div v-for="(section, i) in sections" :key="i" class="legal-block" :class="{ 'legal-block--first': i === 0 }">
           <h2 class="legal-heading">{{ section.heading }}</h2>
           <p class="legal-body">{{ section.body }}</p>
         </div>
@@ -26,19 +15,15 @@
 
 <script setup>
 /**
- * LegalDocument — renders any of the legalNotice / privacyPolicy /
- * cookiePolicy i18n documents from a shared layout.
- *
- * Props:
- *  @prop {string} i18nKey - top-level i18n key ('legalNotice', 'privacyPolicy', 'cookiePolicy')
+ * LegalDocument — shared layout for legal notice, privacy and cookie
+ * policies, read from an i18n key with { title, updated, sections[] }.
+ * @prop {string} i18nKey - 'legalNotice' | 'privacyPolicy' | 'cookiePolicy'
  */
 import { computed } from 'vue'
 import { useI18n } from 'vue-i18n'
+import PageHero from '@/components/sections/PageHero.vue'
 
-const props = defineProps({
-  i18nKey: { type: String, required: true },
-})
-
+const props = defineProps({ i18nKey: { type: String, required: true } })
 const { tm, locale } = useI18n()
 
 const sections = computed(() => tm(`${props.i18nKey}.sections`))

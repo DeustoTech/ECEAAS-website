@@ -10,7 +10,11 @@
     "title": "Cognitive Environments for healthy, autonomous, and active aging",
     "acronym": "ECEAAS",
     "pids": "PID2024-158490OB-C31, PID2024-158490OB-C32, PID2024-158490OB-C33",
-    "funding": "Spanish State Plan for Scientific, Technical and Innovation Research — Knowledge Generation Projects 2024"
+    "funding": "Spanish State Plan for Scientific, Technical and Innovation Research — Knowledge Generation Projects 2024",
+    "eyebrow": "Coordinated project · State Plan 2024",
+    "lead": "Artificial intelligence, sensor networks and IoT at the service of older adults, their caregivers and healthcare professionals, with privacy, ethics and explainability by design.",
+    "ctaProject": "Discover the project",
+    "ctaTeam": "Meet the team"
   },
   "home": {
     "seo": {
@@ -32,7 +36,99 @@
       "Design sustainable, efficient and scalable solutions by optimising energy consumption, processing capabilities and infrastructure deployment to facilitate adoption across a wide range of healthcare and assisted living environments.",
       "Validate the developed technologies in real-world scenarios, evaluating their performance, usability and impact on older adults' autonomy, quality of life, and the efficiency of healthcare and care services."
     ],
-    "objectiveIcons": ["🏠", "📡", "🔗", "🤖", "💬", "🔍", "🔒", "⚡", "✅"]
+    "objectiveIcons": [
+      "🏠",
+      "📡",
+      "🔗",
+      "🤖",
+      "💬",
+      "🔍",
+      "🔒",
+      "⚡",
+      "✅"
+    ],
+    "heroTitleLead": "Cognitive environments for",
+    "heroTitleAccent": "healthy, autonomous and active aging",
+    "chips": [
+      "Sensors and 6G",
+      "IoT and data",
+      "Explainable AI",
+      "Caregivers and professionals"
+    ],
+    "partners": "Participating institutions",
+    "stats": {
+      "universities": "universities in one coordinated project",
+      "subprojects": "complementary subprojects: COG, ISAC and DATA",
+      "workPackages": "work packages, from management to transfer",
+      "objectives": "scientific and technological objectives"
+    },
+    "how": {
+      "eyebrow": "How it works",
+      "title": "From signal to personalised support",
+      "lead": "Cognitive environments integrate information from people and their context to understand their situation, anticipate needs and offer personalised support.",
+      "steps": [
+        {
+          "sub": "ECEAAS-ISAC",
+          "title": "Sense",
+          "text": "Communications and sensing to acquire continuous, reliable information from people, devices and the environment."
+        },
+        {
+          "sub": "ECEAAS-DATA",
+          "title": "Integrate",
+          "text": "IoT framework to acquire, integrate and analyse heterogeneous data with artificial intelligence."
+        },
+        {
+          "sub": "ECEAAS-COG",
+          "title": "Understand",
+          "text": "Cognitive framework with language and knowledge models that interprets each person's context."
+        },
+        {
+          "sub": "Impact",
+          "title": "Support",
+          "text": "Personalised, explainable recommendations for older adults, caregivers and professionals."
+        }
+      ]
+    },
+    "aboutHeadline": "Tackling one of the major social challenges of the coming decades",
+    "objectivesEyebrow": "Objectives",
+    "objectivesHeadline": "Nine objectives on three fronts",
+    "objectiveTitles": [
+      "Intelligent cognitive environments",
+      "Communications and sensing",
+      "Multimodal data",
+      "Agentic AI and personalisation",
+      "Natural interaction",
+      "Explainable AI",
+      "Security, privacy and ethics",
+      "Sustainability and scalability",
+      "Validation in real settings"
+    ],
+    "pillars": [
+      {
+        "title": "Technology and infrastructure",
+        "desc": "Intelligent environments, next-generation communications and data from multiple sources."
+      },
+      {
+        "title": "Intelligence and cognition",
+        "desc": "AI models that learn, converse and explain their recommendations."
+      },
+      {
+        "title": "Trust and impact",
+        "desc": "Protected data, sustainable solutions and validation with real people."
+      }
+    ],
+    "subprojects": {
+      "eyebrow": "Structure",
+      "title": "Three subprojects, one cognitive framework",
+      "lead": "Three research groups with complementary capabilities, from communications and sensing to intelligent data management and cognitive integration.",
+      "more": "Learn more →"
+    },
+    "team": {
+      "eyebrow": "Team",
+      "title": "Researchers from three universities, one vision",
+      "lead": "{pis} principal investigators and {researchers} supporting researchers work together across the three subprojects.",
+      "cta": "Meet the team →"
+    }
   },
   "project": {
     "seo": {
@@ -79,7 +175,22 @@
       "WP7. Dissemination and Exploitation"
     ],
     "wpDistTitle": "Distribution of the Work Packages",
-    "wpDistText": "The three ECEAAS subprojects are closely interconnected, making collaboration an essential element of the project."
+    "wpDistText": "The three ECEAAS subprojects are closely interconnected, making collaboration an essential element of the project.",
+    "hero": {
+      "eyebrow": "Coordinated project",
+      "title": "Three groups, three subprojects, one cognitive environment"
+    },
+    "subprojectsEyebrow": "Subprojects",
+    "subprojectsTitle": "What each subproject does",
+    "wpEyebrow": "Work plan",
+    "wpHeadline": "Seven work packages, three coordinators",
+    "wpLead": "The packages range from coordination to validation and transfer. Each subproject leads the packages in its area of expertise and contributes to the rest: the three are interrelated, and collaboration is a necessity of the project.",
+    "matrix": {
+      "head": "Work package",
+      "leads": "Leads",
+      "contributes": "Contributes",
+      "totals": "Packages led"
+    }
   },
   "team": {
     "seo": {
@@ -112,10 +223,18 @@
           }
         ],
         "researchers": [
-          "Agusti Solanas", "Maria Ferré", "Àngels Moncusí", "Gerard Fortuny",
-          "Joan Herrero", "Josep M. López Besora", "Dolors Puigjaner",
-          "Edgar Batista", "Mary Bernal", "Constantinos Patsakis",
-          "Juvenal Machín", "Montse García"
+          "Agusti Solanas",
+          "Maria Ferré",
+          "Àngels Moncusí",
+          "Gerard Fortuny",
+          "Joan Herrero",
+          "Josep M. López Besora",
+          "Dolors Puigjaner",
+          "Edgar Batista",
+          "Mary Bernal",
+          "Constantinos Patsakis",
+          "Juvenal Machín",
+          "Montse García"
         ]
       },
       {
@@ -140,7 +259,10 @@
           }
         ],
         "researchers": [
-          "Francisco Falcone", "Jesús Trigo", "Blanca Bujanda", "Mikel Celaya"
+          "Francisco Falcone",
+          "Jesús Trigo",
+          "Blanca Bujanda",
+          "Mikel Celaya"
         ]
       },
       {
@@ -165,20 +287,80 @@
           }
         ],
         "researchers": [
-          "Enrique Onieva", "Asier Moreno", "Estibaliz Loyo", "Laura Arjona",
-          "Hugo Landaluce", "Pilar Elejoste", "Jon Diaz", "Alcides de Araujo Fernandes"
+          "Enrique Onieva",
+          "Asier Moreno",
+          "Estibaliz Loyo",
+          "Laura Arjona",
+          "Hugo Landaluce",
+          "Pilar Elejoste",
+          "Jon Diaz",
+          "Alcides de Araujo Fernandes"
         ]
       }
-    ]
+    ],
+    "hero": {
+      "eyebrow": "Research team",
+      "title": "The people behind ECEAAS",
+      "lead": "{pis} principal investigators and a broad supporting team across three universities, working together on the COG, ISAC and DATA subprojects."
+    },
+    "filterLabel": "Filter by university",
+    "filterAll": "All",
+    "subprojectLabel": "Subproject",
+    "viewBio": "View biography ↓",
+    "hideBio": "Hide biography ↑"
   },
   "publications": {
     "seo": {
       "title": "ECEAAS — Publications",
       "description": "Scientific publications of the ECEAAS project."
     },
-    "title": "Publications",
-    "comingSoon": "Coming soon",
-    "message": "This section will be available shortly with the scientific publications of the ECEAAS project."
+    "title": "Project publications",
+    "eyebrow": "Scientific output",
+    "headline": "Project publications",
+    "lead": "Articles, conference papers, theses and other research outputs produced within ECEAAS.",
+    "searchLabel": "Search publications",
+    "searchPlaceholder": "Search by title, author, keyword or DOI…",
+    "year": "Year",
+    "type": "Type",
+    "subproject": "Subproject",
+    "all": "All",
+    "allYears": "All years",
+    "allTypes": "All types",
+    "allSubprojects": "All subprojects",
+    "count": "{n} publications",
+    "countOne": "1 publication",
+    "clear": "Clear filters",
+    "loading": "Loading publications…",
+    "error": "The publications could not be loaded. Please try again later.",
+    "emptyTitle": "No publications yet",
+    "emptyText": "The project's scientific publications will appear here as soon as they are published.",
+    "noResultsTitle": "No results",
+    "noResultsText": "No publication matches the current search.",
+    "openAccess": "Open access",
+    "abstract": "View abstract ↓",
+    "hideAbstract": "Hide abstract ↑",
+    "actions": {
+      "doi": "DOI",
+      "pdf": "PDF",
+      "link": "Link",
+      "cite": "Copy citation",
+      "copied": "Copied ✓",
+      "bibtex": "BibTeX"
+    },
+    "types": {
+      "article-journal": "Journal article",
+      "paper-conference": "Conference paper",
+      "chapter": "Book chapter",
+      "book": "Book",
+      "thesis": "Thesis",
+      "report": "Report",
+      "dataset": "Dataset",
+      "software": "Software",
+      "webpage": "Web page",
+      "article": "Preprint",
+      "speech": "Talk",
+      "poster": "Poster"
+    }
   },
   "footer": {
     "contact": "Contact",
@@ -190,7 +372,10 @@
       "legalNotice": "Legal notice",
       "privacyPolicy": "Privacy policy",
       "cookiePolicy": "Cookie policy"
-    }
+    },
+    "tagline": "Cognitive Environments for Autonomous, Active and Healthy Aging.",
+    "pages": "Pages",
+    "legal": "Legal information"
   },
   "legal": {
     "backLink": "← Back to home"
@@ -288,5 +473,9 @@
         "body": "This Cookie Policy may be updated in response to regulatory changes or changes in the technical operation of the website. We recommend reviewing it periodically."
       }
     ]
+  },
+  "common": {
+    "universities": "Universities",
+    "skipToContent": "Skip to content"
   }
 }

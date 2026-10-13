@@ -1,50 +1,29 @@
 <template>
-  <!-- =====================================================
-    SubprojectCard — displays a subproject (COG/ISAC/DATA)
-    with name, subtitle, description and university badge.
-  ====================================================== -->
-  <article class="subproject-card" :style="{ '--sp-accent': accentColor }">
-    <div class="subproject-image-wrap">
-      <img
-        :src="`/assets/${subproject.name}.png`"
-        :alt="subproject.name"
-        class="subproject-image"
-      />
-    </div>
-    <p class="subproject-name">{{ subproject.name }}</p>
-    <p class="subproject-subtitle">{{ subproject.subtitle }}</p>
-    <p class="subproject-desc">{{ subproject.description }}</p>
-    <div class="subproject-uni">
-      <img
-        :src="`/assets/${subproject.logo}`"
-        :alt="subproject.university"
-        class="subproject-uni-logo"
-      />
-      <span class="subproject-uni-name">{{ subproject.university }}</span>
-    </div>
-  </article>
+  <router-link :to="to" class="subproject-card lift" :style="{ '--sp': sp.onDark }">
+    <span class="subproject-head">
+      <span class="subproject-name">{{ subproject.name }}</span>
+      <span class="subproject-logo"><img :src="`/assets/${subproject.logo}`" :alt="subproject.university" /></span>
+    </span>
+    <span class="subproject-subtitle">{{ subproject.subtitle }}</span>
+    <span class="subproject-foot">
+      <span>{{ subproject.university }}</span>
+      <b>{{ $t('home.subprojects.more') }}</b>
+    </span>
+  </router-link>
 </template>
 
 <script setup>
-import { computed } from 'vue'
-
 /**
- * SubprojectCard — presentational component for a subproject block.
- *
- * Props:
- *  @prop {Object} subproject - Subproject data from i18n locale
- *    { id, name, subtitle, description, university, logo }
+ * SubprojectCard — compact dark card used on the home page.
+ * @prop {Object} subproject - { id, name, subtitle, university, logo }
+ * @prop {string} to - target route
  */
+import { computed } from 'vue'
+import { SUBPROJECTS } from '@/data/subprojects'
+
 const props = defineProps({
   subproject: { type: Object, required: true },
+  to: { type: String, required: true },
 })
-
-/** Accent colour per subproject, matching its lead institution. */
-const ACCENTS = {
-  cog: 'var(--color-accent)',
-  isac: '#4E708A',
-  data: 'var(--color-sage)',
-}
-
-const accentColor = computed(() => ACCENTS[props.subproject.id] ?? 'var(--color-accent)')
+const sp = computed(() => SUBPROJECTS[props.subproject.id])
 </script>

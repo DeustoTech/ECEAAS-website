@@ -1,33 +1,31 @@
 <template>
-  <!-- =====================================================
-    TeamMemberCard — photo + name + role + bio snippet
-  ====================================================== -->
-  <article class="team-member-card">
-    <div class="member-photo-wrap">
-      <img
-        :src="`/assets/${member.photo}`"
-        :alt="member.name"
-        class="member-photo"
-        loading="lazy"
-      />
+  <article class="member-card" :style="{ '--c': color }">
+    <div class="member-head">
+      <span class="avatar"><img :src="`/assets/${member.photo}`" :alt="member.name" loading="lazy" /></span>
+      <div>
+        <h3 class="member-name">{{ member.name }}</h3>
+        <p class="member-role">{{ member.role }}</p>
+      </div>
     </div>
-    <div class="member-info">
-      <h3 class="member-name">{{ member.name }}</h3>
-      <p class="member-role">{{ member.role }}</p>
-      <p class="member-bio">{{ member.bio }}</p>
-    </div>
+    <details class="member-bio">
+      <summary>
+        <span class="more">{{ $t('team.viewBio') }}</span>
+        <span class="less">{{ $t('team.hideBio') }}</span>
+      </summary>
+      <p>{{ member.bio }}</p>
+    </details>
   </article>
 </template>
 
 <script setup>
 /**
- * TeamMemberCard — displays a team member's photo, name, role and bio.
- *
- * Props:
- *  @prop {Object} member - Member data from i18n locale
- *    { name, role, photo, bio }
+ * TeamMemberCard — principal investigator with photo, role and a
+ * collapsible biography.
+ * @prop {Object} member - { name, role, photo, bio }
+ * @prop {string} color - accent colour of the institution
  */
 defineProps({
   member: { type: Object, required: true },
+  color: { type: String, default: 'var(--blue)' },
 })
 </script>

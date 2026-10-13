@@ -10,7 +10,11 @@
     "title": "Entornos Cognitivos para el Envejecimiento Autónomo, Activo y Saludable",
     "acronym": "ECEAAS",
     "pids": "PID2024-158490OB-C31, PID2024-158490OB-C32, PID2024-158490OB-C33",
-    "funding": "Plan Estatal de Investigación Científica, Técnica y de Innovación — Proyectos de Generación de Conocimiento 2024"
+    "funding": "Plan Estatal de Investigación Científica, Técnica y de Innovación — Proyectos de Generación de Conocimiento 2024",
+    "eyebrow": "Proyecto coordinado · Plan Estatal 2024",
+    "lead": "Inteligencia artificial, redes de sensores e IoT al servicio de las personas mayores, de sus cuidadores y de los profesionales sanitarios, con privacidad, ética y explicabilidad desde el diseño.",
+    "ctaProject": "Conocer el proyecto",
+    "ctaTeam": "Ver el equipo"
   },
   "home": {
     "seo": {
@@ -32,7 +36,99 @@
       "Diseñar soluciones sostenibles, eficientes y escalables, optimizando el consumo energético, la capacidad de procesamiento y el despliegue de infraestructuras para facilitar su adopción en distintos entornos asistenciales.",
       "Validar las tecnologías desarrolladas en escenarios reales, evaluando su rendimiento, usabilidad e impacto sobre la autonomía, la calidad de vida de las personas mayores y la eficiencia de los servicios de atención y cuidados."
     ],
-    "objectiveIcons": ["🏠", "📡", "🔗", "🤖", "💬", "🔍", "🔒", "⚡", "✅"]
+    "objectiveIcons": [
+      "🏠",
+      "📡",
+      "🔗",
+      "🤖",
+      "💬",
+      "🔍",
+      "🔒",
+      "⚡",
+      "✅"
+    ],
+    "heroTitleLead": "Entornos cognitivos para un envejecimiento",
+    "heroTitleAccent": "autónomo, activo y saludable",
+    "chips": [
+      "Sensores y 6G",
+      "IoT y datos",
+      "IA explicable",
+      "Cuidadores y profesionales"
+    ],
+    "partners": "Instituciones participantes",
+    "stats": {
+      "universities": "universidades en un proyecto coordinado",
+      "subprojects": "subproyectos complementarios: COG, ISAC y DATA",
+      "workPackages": "paquetes de trabajo, de la gestión a la transferencia",
+      "objectives": "objetivos científicos y tecnológicos"
+    },
+    "how": {
+      "eyebrow": "Cómo funciona",
+      "title": "De la señal al apoyo personalizado",
+      "lead": "Los entornos cognitivos integran información de las personas y de su contexto para comprender su situación, anticipar necesidades y ofrecer apoyo personalizado.",
+      "steps": [
+        {
+          "sub": "ECEAAS-ISAC",
+          "title": "Captar",
+          "text": "Comunicaciones y sensado para adquirir información continua y fiable de personas, dispositivos y entorno."
+        },
+        {
+          "sub": "ECEAAS-DATA",
+          "title": "Integrar",
+          "text": "Framework IoT para adquirir, integrar y analizar datos heterogéneos con inteligencia artificial."
+        },
+        {
+          "sub": "ECEAAS-COG",
+          "title": "Comprender",
+          "text": "Marco cognitivo con modelos de lenguaje y conocimiento que interpreta el contexto de cada persona."
+        },
+        {
+          "sub": "Impacto",
+          "title": "Acompañar",
+          "text": "Recomendaciones personalizadas y explicables para personas mayores, cuidadores y profesionales."
+        }
+      ]
+    },
+    "aboutHeadline": "Afrontar uno de los grandes retos sociales de las próximas décadas",
+    "objectivesEyebrow": "Objetivos",
+    "objectivesHeadline": "Nueve objetivos en tres frentes",
+    "objectiveTitles": [
+      "Entornos cognitivos inteligentes",
+      "Comunicaciones y sensado",
+      "Datos multimodales",
+      "IA agéntica y personalización",
+      "Interacción natural",
+      "IA explicable",
+      "Seguridad, privacidad y ética",
+      "Sostenibilidad y escalabilidad",
+      "Validación en entornos reales"
+    ],
+    "pillars": [
+      {
+        "title": "Tecnología e infraestructura",
+        "desc": "Entornos inteligentes, comunicaciones de nueva generación y datos de múltiples fuentes."
+      },
+      {
+        "title": "Inteligencia y cognición",
+        "desc": "Modelos de IA que aprenden, dialogan y explican sus recomendaciones."
+      },
+      {
+        "title": "Confianza e impacto",
+        "desc": "Datos protegidos, soluciones sostenibles y validación con personas reales."
+      }
+    ],
+    "subprojects": {
+      "eyebrow": "Estructura",
+      "title": "Tres subproyectos, un único marco cognitivo",
+      "lead": "Tres grupos de investigación con capacidades complementarias, desde las comunicaciones y el sensado hasta la gestión inteligente de los datos y la integración cognitiva.",
+      "more": "Ver más →"
+    },
+    "team": {
+      "eyebrow": "Equipo",
+      "title": "Investigadores de tres universidades, una sola visión",
+      "lead": "{pis} investigadores principales y {researchers} investigadores de apoyo trabajan de forma coordinada en los tres subproyectos.",
+      "cta": "Conocer al equipo →"
+    }
   },
   "project": {
     "seo": {
@@ -79,7 +175,22 @@
       "WP7. Diseminación y Explotación"
     ],
     "wpDistTitle": "Distribución de los paquetes de trabajo",
-    "wpDistText": "Los tres subproyectos de ECEAAS están interrelacionados, lo que hace que la colaboración sea una necesidad en este proyecto."
+    "wpDistText": "Los tres subproyectos de ECEAAS están interrelacionados, lo que hace que la colaboración sea una necesidad en este proyecto.",
+    "hero": {
+      "eyebrow": "Proyecto coordinado",
+      "title": "Tres grupos, tres subproyectos, un mismo entorno cognitivo"
+    },
+    "subprojectsEyebrow": "Subproyectos",
+    "subprojectsTitle": "Qué hace cada subproyecto",
+    "wpEyebrow": "Plan de trabajo",
+    "wpHeadline": "Siete paquetes de trabajo, tres coordinadores",
+    "wpLead": "Los paquetes abarcan desde la coordinación hasta la validación y la transferencia. Cada subproyecto lidera los paquetes de su especialidad y colabora en el resto: los tres están interrelacionados y la colaboración es una necesidad del proyecto.",
+    "matrix": {
+      "head": "Paquete de trabajo",
+      "leads": "Coordina",
+      "contributes": "Participa",
+      "totals": "Paquetes coordinados"
+    }
   },
   "team": {
     "seo": {
@@ -112,10 +223,18 @@
           }
         ],
         "researchers": [
-          "Agusti Solanas", "Maria Ferré", "Àngels Moncusí", "Gerard Fortuny",
-          "Joan Herrero", "Josep M. López Besora", "Dolors Puigjaner",
-          "Edgar Batista", "Mary Bernal", "Constantinos Patsakis",
-          "Juvenal Machín", "Montse García"
+          "Agusti Solanas",
+          "Maria Ferré",
+          "Àngels Moncusí",
+          "Gerard Fortuny",
+          "Joan Herrero",
+          "Josep M. López Besora",
+          "Dolors Puigjaner",
+          "Edgar Batista",
+          "Mary Bernal",
+          "Constantinos Patsakis",
+          "Juvenal Machín",
+          "Montse García"
         ]
       },
       {
@@ -140,7 +259,10 @@
           }
         ],
         "researchers": [
-          "Francisco Falcone", "Jesús Trigo", "Blanca Bujanda", "Mikel Celaya"
+          "Francisco Falcone",
+          "Jesús Trigo",
+          "Blanca Bujanda",
+          "Mikel Celaya"
         ]
       },
       {
@@ -165,20 +287,80 @@
           }
         ],
         "researchers": [
-          "Enrique Onieva", "Asier Moreno", "Estibaliz Loyo", "Laura Arjona",
-          "Hugo Landaluce", "Pilar Elejoste", "Jon Diaz", "Alcides de Araujo Fernandes"
+          "Enrique Onieva",
+          "Asier Moreno",
+          "Estibaliz Loyo",
+          "Laura Arjona",
+          "Hugo Landaluce",
+          "Pilar Elejoste",
+          "Jon Diaz",
+          "Alcides de Araujo Fernandes"
         ]
       }
-    ]
+    ],
+    "hero": {
+      "eyebrow": "Equipo investigador",
+      "title": "Las personas detrás de ECEAAS",
+      "lead": "{pis} investigadores principales y un amplio equipo de apoyo en tres universidades, coordinados en torno a los subproyectos COG, ISAC y DATA."
+    },
+    "filterLabel": "Filtrar por universidad",
+    "filterAll": "Todas",
+    "subprojectLabel": "Subproyecto",
+    "viewBio": "Ver biografía ↓",
+    "hideBio": "Ocultar biografía ↑"
   },
   "publications": {
     "seo": {
       "title": "ECEAAS — Publicaciones",
       "description": "Publicaciones científicas del proyecto ECEAAS."
     },
-    "title": "Publicaciones",
-    "comingSoon": "Próximamente",
-    "message": "Esta sección estará disponible en breve con las publicaciones científicas del proyecto ECEAAS."
+    "title": "Publicaciones del proyecto",
+    "eyebrow": "Producción científica",
+    "headline": "Publicaciones del proyecto",
+    "lead": "Artículos, comunicaciones, tesis y otros resultados de investigación generados en el marco de ECEAAS.",
+    "searchLabel": "Buscar publicaciones",
+    "searchPlaceholder": "Buscar por título, autor, palabra clave o DOI…",
+    "year": "Año",
+    "type": "Tipo",
+    "subproject": "Subproyecto",
+    "all": "Todos",
+    "allYears": "Todos los años",
+    "allTypes": "Todos los tipos",
+    "allSubprojects": "Todos los subproyectos",
+    "count": "{n} publicaciones",
+    "countOne": "1 publicación",
+    "clear": "Limpiar filtros",
+    "loading": "Cargando publicaciones…",
+    "error": "No se han podido cargar las publicaciones. Inténtalo de nuevo más tarde.",
+    "emptyTitle": "Aún no hay publicaciones",
+    "emptyText": "Las publicaciones científicas del proyecto aparecerán aquí en cuanto se publiquen.",
+    "noResultsTitle": "Sin resultados",
+    "noResultsText": "Ninguna publicación coincide con la búsqueda actual.",
+    "openAccess": "Acceso abierto",
+    "abstract": "Ver resumen ↓",
+    "hideAbstract": "Ocultar resumen ↑",
+    "actions": {
+      "doi": "DOI",
+      "pdf": "PDF",
+      "link": "Enlace",
+      "cite": "Copiar cita",
+      "copied": "Copiada ✓",
+      "bibtex": "BibTeX"
+    },
+    "types": {
+      "article-journal": "Artículo de revista",
+      "paper-conference": "Comunicación a congreso",
+      "chapter": "Capítulo de libro",
+      "book": "Libro",
+      "thesis": "Tesis",
+      "report": "Informe",
+      "dataset": "Conjunto de datos",
+      "software": "Software",
+      "webpage": "Página web",
+      "article": "Preprint",
+      "speech": "Ponencia",
+      "poster": "Póster"
+    }
   },
   "footer": {
     "contact": "Contacto",
@@ -190,7 +372,10 @@
       "legalNotice": "Aviso legal",
       "privacyPolicy": "Política de privacidad",
       "cookiePolicy": "Política de cookies"
-    }
+    },
+    "tagline": "Entornos Cognitivos para el Envejecimiento Autónomo, Activo y Saludable.",
+    "pages": "Páginas",
+    "legal": "Información legal"
   },
   "legal": {
     "backLink": "← Volver al inicio"
@@ -288,5 +473,9 @@
         "body": "Esta Política de Cookies podrá actualizarse en función de cambios normativos o en el funcionamiento técnico del sitio web. Se recomienda revisarla periódicamente."
       }
     ]
+  },
+  "common": {
+    "universities": "Universidades",
+    "skipToContent": "Saltar al contenido"
   }
 }
