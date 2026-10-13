@@ -1,8 +1,8 @@
 <template>
-  <!-- =====================================================
-    PublicationsView — placeholder "Coming soon" page
-  ====================================================== -->
   <main>
+    <!-- =====================================================
+      PublicationsView — placeholder "Coming soon" page
+    ====================================================== -->
     <HeroSection />
 
     <section class="publications-section" aria-labelledby="pub-title">

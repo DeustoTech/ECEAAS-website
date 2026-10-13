@@ -1,12 +1,12 @@
 <template>
-  <!-- =====================================================
-    TeamView — Team page
-    One institution block per university, each with:
-      - Logo + group name + description
-      - PI cards (photo + bio)
-      - Researchers list
-  ====================================================== -->
   <main>
+    <!-- =====================================================
+      TeamView — Team page
+      One institution block per university, each with:
+        - Logo + group name + description
+        - PI cards (photo + bio)
+        - Researchers list
+    ====================================================== -->
     <HeroSection />
 
     <section class="team-section" aria-labelledby="team-title">

@@ -1,10 +1,10 @@
 <template>
-  <!-- =====================================================
-    ProjectView — Project page
-    Sections: Hero → Coordinated project → Subprojects
-              → Work Packages → WP Distribution
-  ====================================================== -->
   <main>
+    <!-- =====================================================
+      ProjectView — Project page
+      Sections: Hero → Coordinated project → Subprojects
+                → Work Packages → WP Distribution
+    ====================================================== -->
     <HeroSection />
 
     <!-- Coordinated project overview -->

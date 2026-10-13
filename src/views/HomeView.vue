@@ -1,9 +1,9 @@
 <template>
-  <!-- =====================================================
-    HomeView — Landing page
-    Sections: Hero → University logos → About → Objectives
-  ====================================================== -->
   <main>
+    <!-- =====================================================
+      HomeView — Landing page
+      Sections: Hero → University logos → About → Objectives
+    ====================================================== -->
     <HeroSection />
     <UniversityLogos />
 
