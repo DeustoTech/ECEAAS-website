@@ -26,7 +26,7 @@
           <ObjectiveCard
             v-for="(obj, i) in objectives"
             :key="i"
-            :icon="icons[i]"
+            :index="i"
             :text="obj"
           />
         </div>
@@ -52,6 +52,4 @@ const { tm } = useI18n()
 
 /** Reactive list of objective texts from i18n */
 const objectives = computed(() => tm('home.objectives'))
-/** Corresponding emoji icons (same array order) */
-const icons      = computed(() => tm('home.objectiveIcons'))
 </script>

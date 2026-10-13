@@ -185,6 +185,108 @@
     "rights": "ECEAAS Project",
     "fundedBy": "Funded by",
     "agency": "Spanish State Research Agency",
-    "credits": "Photos from"
+    "credits": "Photos from",
+    "legalLinks": {
+      "legalNotice": "Legal notice",
+      "privacyPolicy": "Privacy policy",
+      "cookiePolicy": "Cookie policy"
+    }
+  },
+  "legal": {
+    "backLink": "← Back to home"
+  },
+  "legalNotice": {
+    "seo": {
+      "title": "ECEAAS — Legal notice",
+      "description": "Legal notice for the ECEAAS project website."
+    },
+    "title": "Legal notice",
+    "updated": "Last updated: September 2026",
+    "sections": [
+      {
+        "heading": "1. Identification details",
+        "body": "In compliance with Spanish Law 34/2002 (LSSI-CE), please note that this website is an information channel for the coordinated research project ECEAAS (PID2024-158490OB-C31, PID2024-158490OB-C32, PID2024-158490OB-C33), funded by the Spanish State Research Agency and jointly developed by Universitat Rovira i Virgili, the Public University of Navarre and the University of Deusto. The entity responsible for coordinating the project and this website is [NAME OF THE COORDINATING ENTITY], Tax ID [TAX ID], registered address [POSTAL ADDRESS], contact email [CONTACT EMAIL]."
+      },
+      {
+        "heading": "2. Purpose and scope",
+        "body": "This website has a purely informational and scientific-dissemination purpose regarding the objectives, structure and results of the ECEAAS project. Access to and use of the site implies full acceptance of the conditions set out in this Legal Notice."
+      },
+      {
+        "heading": "3. Conditions of use",
+        "body": "Users agree to make appropriate use of the content and services on this website and not to use them for unlawful purposes, purposes contrary to good faith and public order, or purposes that could damage the rights of third parties or the proper functioning of the site."
+      },
+      {
+        "heading": "4. Intellectual and industrial property",
+        "body": "The text, images, institutional logos and other content on this website are the property of the institutions participating in the ECEAAS project, or of third parties who have authorised their use, and are protected by intellectual and industrial property law. Reproduction, distribution or public communication, in whole or in part, is prohibited without the express authorisation of their owners, except for academic citation with attribution."
+      },
+      {
+        "heading": "5. Liability",
+        "body": "The participating institutions do not guarantee the absence of errors in access to the website or its content, nor that it is always up to date, although they undertake to make their best efforts to prevent, correct or update it as soon as possible."
+      },
+      {
+        "heading": "6. Applicable law",
+        "body": "These conditions are governed by Spanish law. Any dispute arising from access to or use of this website shall be submitted to the competent Spanish courts."
+      }
+    ]
+  },
+  "privacyPolicy": {
+    "seo": {
+      "title": "ECEAAS — Privacy policy",
+      "description": "Privacy and data protection policy for the ECEAAS project website."
+    },
+    "title": "Privacy policy",
+    "updated": "Last updated: September 2026",
+    "sections": [
+      {
+        "heading": "1. Data controller",
+        "body": "The controller for any personal data collected through this website is [NAME OF THE RESPONSIBLE ENTITY], registered address [POSTAL ADDRESS], contact email [CONTACT EMAIL]. For data-protection queries, please contact the Data Protection Officer at [DATA PROTECTION OFFICER EMAIL]."
+      },
+      {
+        "heading": "2. Purpose of processing",
+        "body": "This website is purely informational and does not include forms that collect personal data from visitors. The only personal data processed are those of the project's researchers (name, institutional affiliation, photograph and professional biography), published for transparency and scientific dissemination purposes."
+      },
+      {
+        "heading": "3. Legal basis",
+        "body": "The processing of researchers' data is based on the legitimate interest of the participating institutions in disseminating the composition and results of their research teams, and, where applicable, on each researcher's explicit consent to the publication of their professional information."
+      },
+      {
+        "heading": "4. Recipients",
+        "body": "No personal data is shared with third parties except where legally required. The website is hosted by [HOSTING PROVIDER], which, where applicable, acts as data processor."
+      },
+      {
+        "heading": "5. Rights of data subjects",
+        "body": "Any data subject has the right to access, rectify and erase their data, as well as to request restriction of or object to its processing and, where applicable, data portability, by writing to the data controller at the address indicated in section 1. Data subjects also have the right to lodge a complaint with the Spanish Data Protection Agency (www.aepd.es) if they consider that the processing does not comply with applicable law."
+      },
+      {
+        "heading": "6. Data retention",
+        "body": "Researchers' data will be kept for as long as their involvement in the ECEAAS project continues and, subsequently, for the periods required by applicable regulations on archiving and transparency of publicly funded research."
+      }
+    ]
+  },
+  "cookiePolicy": {
+    "seo": {
+      "title": "ECEAAS — Cookie policy",
+      "description": "Cookie policy for the ECEAAS project website."
+    },
+    "title": "Cookie policy",
+    "updated": "Last updated: September 2026",
+    "sections": [
+      {
+        "heading": "1. What are cookies?",
+        "body": "Cookies are small text files that a website may store in a user's browser to save and retrieve information about their browsing activity."
+      },
+      {
+        "heading": "2. Cookies used on this website",
+        "body": "In its current version, this website does not install any first-party or third-party analytical, advertising or personalisation cookies, nor any other device for storing and retrieving data on the user's device. For this reason, the consent required under Article 22.2 of the Spanish LSSI-CE is not applicable. Should web-analytics tools or similar technologies be introduced in the future, this policy will be updated and a corresponding consent mechanism will be enabled before activation."
+      },
+      {
+        "heading": "3. Managing cookies from your browser",
+        "body": "Although this website does not use its own cookies, users can configure their browser to block, delete, or be notified about cookies installed by any website they visit, through the privacy settings of their browser (Chrome, Firefox, Safari, Edge, etc.)."
+      },
+      {
+        "heading": "4. Changes to this policy",
+        "body": "This Cookie Policy may be updated in response to regulatory changes or changes in the technical operation of the website. We recommend reviewing it periodically."
+      }
+    ]
   }
 }

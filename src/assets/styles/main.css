@@ -5,23 +5,27 @@
 
 /* ── Design tokens ─────────────────────────────────────────── */
 :root {
-  /* Colour palette (Modern & Serious Slate/Navy) */
-  --color-primary:        #0f172a;   /* Slate 900 - Serious dark navy */
-  --color-primary-dark:   #020617;   /* Slate 950 - Deeper navy */
-  --color-primary-light:  #f1f5f9;   /* Slate 100 - Very subtle off-white for sections */
-  --color-accent:         #2563eb;   /* Tech Blue - For links, accents, active states */
-  --color-accent-light:   #eff6ff;   /* Tech Blue light bg */
+  /* Colour palette (Warm & Human — cognitive health) */
+  --color-primary:        #262E27;   /* Deep warm charcoal-green — headings, ink */
+  --color-primary-dark:   #171D18;   /* Near-black warm green */
+  --color-primary-light:  #F0ECE1;   /* Warm alt-section background */
+  --color-accent:         #C1653E;   /* Terracotta — links, accents, active states */
+  --color-accent-dark:    #A34E2C;   /* Terracotta hover */
+  --color-accent-light:   #F4E3D3;   /* Terracotta tint bg */
+  --color-sage:           #5C7A63;   /* Sage green — secondary accent */
+  --color-sage-light:     #E4EAE2;   /* Sage tint bg */
   --color-white:          #ffffff;
-  --color-bg:             #fafafa;   /* Clean off-white page bg */
-  --color-text:           #1e293b;   /* Slate 800 - Highly readable dark text */
-  --color-text-muted:     #64748b;   /* Slate 500 - Refined secondary text */
-  --color-border:         #e2e8f0;   /* Slate 200 - Crisp, light borders */
-  --color-footer-bg:      #0f172a;   /* Slate 900 */
-  --color-footer-text:    #94a3b8;   /* Slate 400 */
+  --color-bg:             #FAF6EF;   /* Warm cream page bg */
+  --color-text:           #262E27;   /* Deep warm charcoal-green text */
+  --color-text-muted:     #6B7163;   /* Warm muted olive-grey */
+  --color-border:         #E6DFD1;   /* Warm sand border */
+  --color-footer-bg:      #262E27;   /* Deep warm charcoal-green */
+  --color-footer-text:    #9CA398;   /* Muted sage-grey */
   --color-card-bg:        #ffffff;   /* Clean white cards */
 
   /* Typography */
-  --font-family:          'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  --font-family:          'Manrope', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  --font-family-serif:    'Lora', Georgia, 'Times New Roman', serif;
   --font-size-xs:         0.75rem;     /* 12px */
   --font-size-sm:         0.875rem;    /* 14px */
   --font-size-base:       1rem;        /* 16px */
@@ -51,11 +55,11 @@
   --radius-lg:  16px;
   --radius-xl:  24px;
 
-  /* Shadows (Softer, modern depth) */
-  --shadow-sm:  0 1px 2px rgba(15, 23, 42, 0.05);
-  --shadow-md:  0 4px 6px -1px rgba(15, 23, 42, 0.05), 0 2px 4px -2px rgba(15, 23, 42, 0.05);
-  --shadow-lg:  0 10px 15px -3px rgba(15, 23, 42, 0.04), 0 4px 6px -4px rgba(15, 23, 42, 0.04);
-  --shadow-xl:  0 20px 25px -5px rgba(15, 23, 42, 0.04), 0 8px 10px -6px rgba(15, 23, 42, 0.04);
+  /* Shadows (Softer, warm depth) */
+  --shadow-sm:  0 1px 2px rgba(38, 46, 39, 0.05);
+  --shadow-md:  0 4px 6px -1px rgba(38, 46, 39, 0.06), 0 2px 4px -2px rgba(38, 46, 39, 0.05);
+  --shadow-lg:  0 10px 15px -3px rgba(38, 46, 39, 0.06), 0 4px 6px -4px rgba(38, 46, 39, 0.05);
+  --shadow-xl:  0 20px 25px -5px rgba(38, 46, 39, 0.06), 0 8px 10px -6px rgba(38, 46, 39, 0.05);
 
   /* Layout */
   --container-max:  1150px;
@@ -98,13 +102,13 @@ img {
 }
 
 a {
-  color: var(--color-primary);
+  color: var(--color-accent);
   text-decoration: none;
   transition: color var(--transition-fast);
 }
 
 a:hover {
-  color: var(--color-primary-dark);
+  color: var(--color-accent-dark);
   text-decoration: underline;
 }
 
@@ -121,10 +125,11 @@ button {
 
 /* ── Base typography ───────────────────────────────────────── */
 h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-family-serif);
   font-weight: 700;
   line-height: 1.15;
-  color: var(--color-primary); /* Slate 900 for all headings to ground them */
-  letter-spacing: -0.02em; /* Tighter tracking for modern look */
+  color: var(--color-primary);
+  letter-spacing: -0.01em;
 }
 
 h1 { font-size: var(--font-size-4xl); }

@@ -33,24 +33,19 @@
           <WorkPackageItem
             v-for="(wp, i) in workPackages"
             :key="i"
+            :index="i"
             :label="wp"
           />
         </ul>
       </div>
     </section>
 
-    <!-- WP Distribution image -->
+    <!-- WP Distribution matrix -->
     <section class="wp-dist-section" aria-labelledby="wp-dist-title">
       <div class="container">
         <h2 class="section-title" id="wp-dist-title">{{ $t('project.wpDistTitle') }}</h2>
         <p class="section-lead">{{ $t('project.wpDistText') }}</p>
-        <div class="wp-dist-image-wrap">
-          <img
-            src="/assets/DistribucionWP.png"
-            alt="WP distribution diagram"
-            class="wp-dist-image"
-          />
-        </div>
+        <WpDistributionTable />
       </div>
     </section>
   </main>
@@ -65,9 +60,10 @@
  */
 import { computed } from 'vue'
 import { useI18n } from 'vue-i18n'
-import HeroSection      from '@/components/sections/HeroSection.vue'
-import SubprojectCard   from '@/components/ui/SubprojectCard.vue'
-import WorkPackageItem  from '@/components/ui/WorkPackageItem.vue'
+import HeroSection        from '@/components/sections/HeroSection.vue'
+import SubprojectCard     from '@/components/ui/SubprojectCard.vue'
+import WorkPackageItem    from '@/components/ui/WorkPackageItem.vue'
+import WpDistributionTable from '@/components/ui/WpDistributionTable.vue'
 
 const { tm } = useI18n()
 

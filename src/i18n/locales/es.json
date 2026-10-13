@@ -185,6 +185,108 @@
     "rights": "Proyecto ECEAAS",
     "fundedBy": "Financiado por",
     "agency": "Agencia Estatal de Investigación",
-    "credits": "Imágenes de"
+    "credits": "Imágenes de",
+    "legalLinks": {
+      "legalNotice": "Aviso legal",
+      "privacyPolicy": "Política de privacidad",
+      "cookiePolicy": "Política de cookies"
+    }
+  },
+  "legal": {
+    "backLink": "← Volver al inicio"
+  },
+  "legalNotice": {
+    "seo": {
+      "title": "ECEAAS — Aviso legal",
+      "description": "Aviso legal del sitio web del proyecto ECEAAS."
+    },
+    "title": "Aviso legal",
+    "updated": "Última actualización: septiembre de 2026",
+    "sections": [
+      {
+        "heading": "1. Datos identificativos",
+        "body": "En cumplimiento del artículo 10 de la Ley 34/2002, de 11 de julio, de Servicios de la Sociedad de la Información y de Comercio Electrónico (LSSI-CE), se informa de que este sitio web es un canal de difusión del proyecto de investigación coordinado ECEAAS (PID2024-158490OB-C31, PID2024-158490OB-C32, PID2024-158490OB-C33), financiado por la Agencia Estatal de Investigación, y desarrollado conjuntamente por la Universitat Rovira i Virgili, la Universidad Pública de Navarra y la Universidad de Deusto. La entidad responsable de la coordinación del proyecto y de este sitio web es [NOMBRE DE LA ENTIDAD COORDINADORA], con NIF [NIF], domicilio en [DIRECCIÓN POSTAL] y correo de contacto [EMAIL DE CONTACTO]."
+      },
+      {
+        "heading": "2. Objeto y ámbito de aplicación",
+        "body": "Este sitio web tiene una finalidad exclusivamente informativa y de divulgación científica sobre los objetivos, la estructura y los resultados del proyecto ECEAAS. El acceso y uso del sitio atribuye la condición de persona usuaria y supone la aceptación plena de las condiciones incluidas en este Aviso Legal."
+      },
+      {
+        "heading": "3. Condiciones de uso",
+        "body": "La persona usuaria se compromete a hacer un uso adecuado de los contenidos y servicios del sitio web y a no emplearlos para incurrir en actividades ilícitas, contrarias a la buena fe y al orden público, o que puedan dañar los derechos de terceros o el propio funcionamiento del sitio."
+      },
+      {
+        "heading": "4. Propiedad intelectual e industrial",
+        "body": "Los textos, imágenes, logotipos institucionales y demás contenidos de este sitio web son propiedad de las instituciones participantes en el proyecto ECEAAS o de terceros que han autorizado su uso, y están protegidos por la normativa de propiedad intelectual e industrial. Queda prohibida su reproducción, distribución o comunicación pública total o parcial sin la autorización expresa de sus titulares, salvo cita académica con indicación de la fuente."
+      },
+      {
+        "heading": "5. Responsabilidad",
+        "body": "Las instituciones participantes no garantizan la ausencia de errores en el acceso al sitio web ni en su contenido, ni que este se encuentre siempre actualizado, si bien se compromete a realizar los mejores esfuerzos para evitarlos, subsanarlos o actualizarlos con la mayor brevedad posible."
+      },
+      {
+        "heading": "6. Legislación aplicable",
+        "body": "Las presentes condiciones se rigen por la legislación española. Para cualquier controversia derivada del acceso o uso de este sitio web, las partes se someten a los Juzgados y Tribunales que resulten competentes conforme a la normativa vigente."
+      }
+    ]
+  },
+  "privacyPolicy": {
+    "seo": {
+      "title": "ECEAAS — Política de privacidad",
+      "description": "Política de privacidad y protección de datos del sitio web del proyecto ECEAAS."
+    },
+    "title": "Política de privacidad",
+    "updated": "Última actualización: septiembre de 2026",
+    "sections": [
+      {
+        "heading": "1. Responsable del tratamiento",
+        "body": "El responsable del tratamiento de los datos personales que, en su caso, se recaben a través de este sitio web es [NOMBRE DE LA ENTIDAD RESPONSABLE], con domicilio en [DIRECCIÓN POSTAL] y correo de contacto [EMAIL DE CONTACTO]. Para consultas relativas a protección de datos puede dirigirse al Delegado/a de Protección de Datos en [EMAIL DEL DELEGADO DE PROTECCIÓN DE DATOS]."
+      },
+      {
+        "heading": "2. Finalidad del tratamiento",
+        "body": "Este sitio web tiene carácter divulgativo y no incorpora formularios de recogida de datos personales de personas visitantes. Los únicos datos personales tratados son los de las personas investigadoras del proyecto (nombre, filiación institucional, fotografía y reseña biográfica profesional), publicados con fines de transparencia y difusión científica de la actividad investigadora."
+      },
+      {
+        "heading": "3. Legitimación",
+        "body": "El tratamiento de los datos de las personas investigadoras se basa en el interés legítimo de las instituciones participantes en difundir la composición y los resultados de sus equipos de investigación, así como, en su caso, en el consentimiento expreso de cada persona investigadora para la publicación de su información profesional."
+      },
+      {
+        "heading": "4. Destinatarios",
+        "body": "No se prevé la cesión de datos personales a terceros salvo obligación legal. El sitio web se aloja en [PROVEEDOR DE ALOJAMIENTO], que actúa, en su caso, como encargado del tratamiento."
+      },
+      {
+        "heading": "5. Derechos de las personas interesadas",
+        "body": "Cualquier persona interesada tiene derecho a acceder, rectificar y suprimir sus datos, así como a solicitar la limitación u oposición a su tratamiento y, en su caso, la portabilidad de los mismos, dirigiéndose por escrito al responsable del tratamiento en la dirección indicada en el apartado 1. Asimismo, tiene derecho a presentar una reclamación ante la Agencia Española de Protección de Datos (www.aepd.es) si considera que el tratamiento no se ajusta a la normativa vigente."
+      },
+      {
+        "heading": "6. Conservación de los datos",
+        "body": "Los datos de las personas investigadoras se conservarán mientras se mantenga su vinculación con el proyecto ECEAAS y, posteriormente, durante los plazos exigidos por la normativa aplicable en materia de archivo y transparencia de la investigación financiada con fondos públicos."
+      }
+    ]
+  },
+  "cookiePolicy": {
+    "seo": {
+      "title": "ECEAAS — Política de cookies",
+      "description": "Política de cookies del sitio web del proyecto ECEAAS."
+    },
+    "title": "Política de cookies",
+    "updated": "Última actualización: septiembre de 2026",
+    "sections": [
+      {
+        "heading": "1. ¿Qué son las cookies?",
+        "body": "Las cookies son pequeños ficheros de texto que un sitio web puede instalar en el navegador de la persona usuaria para almacenar y recuperar información sobre su navegación."
+      },
+      {
+        "heading": "2. Cookies utilizadas en este sitio web",
+        "body": "Este sitio web, en su versión actual, no instala cookies propias ni de terceros de tipo analítico, publicitario o de personalización, ni ningún otro dispositivo de almacenamiento y recuperación de datos en el equipo de la persona usuaria. Por este motivo, no es necesario solicitar el consentimiento previsto en el artículo 22.2 de la LSSI-CE. Si en el futuro se incorporasen herramientas de analítica web u otras tecnologías similares, esta política se actualizará y se habilitará el correspondiente sistema de consentimiento antes de su activación."
+      },
+      {
+        "heading": "3. Gestión de cookies desde el navegador",
+        "body": "Aunque este sitio web no utiliza cookies propias, la persona usuaria puede configurar su navegador para bloquear, eliminar o ser avisada de la instalación de cookies por parte de cualquier sitio web que visite, a través de las opciones de privacidad de su navegador (Chrome, Firefox, Safari, Edge, etc.)."
+      },
+      {
+        "heading": "4. Cambios en esta política",
+        "body": "Esta Política de Cookies podrá actualizarse en función de cambios normativos o en el funcionamiento técnico del sitio web. Se recomienda revisarla periódicamente."
+      }
+    ]
   }
 }
