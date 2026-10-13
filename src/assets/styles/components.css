@@ -30,7 +30,9 @@
   align-items: center;
   gap: var(--space-3);
   text-decoration: none;
-  flex-shrink: 0;
+  flex: 0 0 auto;       /* don't grow, don't shrink, take content width */
+  max-width: 300px;     /* hard cap so it never overlaps the nav */
+  overflow: hidden;     /* clip any overflow */
 }
 
 .header-brand:hover {
@@ -68,6 +70,8 @@
   display: flex;
   align-items: center;
   gap: var(--space-1);
+  flex: 1 1 auto;       /* take all remaining space between brand and lang toggle */
+  justify-content: center;
 }
 
 .nav-link {

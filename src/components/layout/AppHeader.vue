@@ -24,9 +24,9 @@
 
       <!-- Desktop navigation -->
       <nav class="header-nav" role="navigation" :aria-label="$t('nav.home')">
-        <router-link :to="localePath('home')"    class="nav-link" id="nav-home">{{ $t('nav.home') }}</router-link>
-        <router-link :to="localePath('project')" class="nav-link" id="nav-project">{{ $t('nav.project') }}</router-link>
-        <router-link :to="localePath('team')"    class="nav-link" id="nav-team">{{ $t('nav.team') }}</router-link>
+        <router-link :to="paths.home"         class="nav-link" id="nav-home">{{ $t('nav.home') }}</router-link>
+        <router-link :to="paths.project"      class="nav-link" id="nav-project">{{ $t('nav.project') }}</router-link>
+        <router-link :to="paths.team"         class="nav-link" id="nav-team">{{ $t('nav.team') }}</router-link>
         <span class="nav-link disabled" id="nav-publications" aria-disabled="true">{{ $t('nav.publications') }}</span>
       </nav>
 
@@ -56,9 +56,9 @@
 
     <!-- Mobile menu -->
     <div class="mobile-menu" :class="{ open: menuOpen }" role="navigation">
-      <router-link :to="localePath('home')"    class="nav-link" @click="menuOpen = false">{{ $t('nav.home') }}</router-link>
-      <router-link :to="localePath('project')" class="nav-link" @click="menuOpen = false">{{ $t('nav.project') }}</router-link>
-      <router-link :to="localePath('team')"    class="nav-link" @click="menuOpen = false">{{ $t('nav.team') }}</router-link>
+      <router-link :to="paths.home"    class="nav-link" @click="menuOpen = false">{{ $t('nav.home') }}</router-link>
+      <router-link :to="paths.project" class="nav-link" @click="menuOpen = false">{{ $t('nav.project') }}</router-link>
+      <router-link :to="paths.team"    class="nav-link" @click="menuOpen = false">{{ $t('nav.team') }}</router-link>
       <span class="nav-link disabled" aria-disabled="true">{{ $t('nav.publications') }}</span>
       <div class="mobile-lang">
         <router-link :to="switchLangPath('es')" class="lang-btn" :class="{ active: locale === 'es' }" @click="menuOpen = false">🇪🇸 ES</router-link>
@@ -86,21 +86,19 @@ const { locale } = useI18n()
 const route      = useRoute()
 const menuOpen   = ref(false)
 
-/** Home path for the brand logo link */
-const homePath = computed(() => (locale.value === 'es' ? '/es/' : '/en/'))
-
 /**
- * Returns the localised path for a given page key.
- * Key mapping: home | project | team | publications
+ * All locale-aware paths as a single reactive computed object.
+ * Using computed() ensures nav links re-render when locale changes.
  */
 const PAGE_PATHS = {
-  es: { home: '/es/', project: '/es/proyecto',       team: '/es/equipo',  publications: '/es/publicaciones' },
-  en: { home: '/en/', project: '/en/project',        team: '/en/team',    publications: '/en/publications'  },
+  es: { home: '/es/', project: '/es/proyecto', team: '/es/equipo',  publications: '/es/publicaciones' },
+  en: { home: '/en/', project: '/en/project',  team: '/en/team',    publications: '/en/publications'  },
 }
 
-function localePath(key) {
-  return PAGE_PATHS[locale.value]?.[key] ?? '/es/'
-}
+const paths = computed(() => PAGE_PATHS[locale.value] ?? PAGE_PATHS.es)
+
+/** Home path for the brand logo link */
+const homePath = computed(() => paths.value.home)
 
 /**
  * Returns the equivalent path in the target locale,
