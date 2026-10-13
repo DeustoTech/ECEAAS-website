@@ -19,10 +19,13 @@ import { createRouter, createWebHistory } from 'vue-router'
 import i18n from '@/i18n'
 
 // Lazy-loaded views for code splitting
-const HomeView         = () => import('@/views/HomeView.vue')
-const ProjectView      = () => import('@/views/ProjectView.vue')
-const TeamView         = () => import('@/views/TeamView.vue')
-const PublicationsView = () => import('@/views/PublicationsView.vue')
+const HomeView          = () => import('@/views/HomeView.vue')
+const ProjectView       = () => import('@/views/ProjectView.vue')
+const TeamView          = () => import('@/views/TeamView.vue')
+const PublicationsView  = () => import('@/views/PublicationsView.vue')
+const LegalNoticeView   = () => import('@/views/LegalNoticeView.vue')
+const PrivacyPolicyView = () => import('@/views/PrivacyPolicyView.vue')
+const CookiePolicyView  = () => import('@/views/CookiePolicyView.vue')
 
 const routes = [
   // Root redirect
@@ -53,6 +56,24 @@ const routes = [
     component: PublicationsView,
     meta: { locale: 'es', seoKey: 'publications' },
   },
+  {
+    path: '/es/aviso-legal',
+    name: 'legal-notice-es',
+    component: LegalNoticeView,
+    meta: { locale: 'es', seoKey: 'legalNotice' },
+  },
+  {
+    path: '/es/privacidad',
+    name: 'privacy-policy-es',
+    component: PrivacyPolicyView,
+    meta: { locale: 'es', seoKey: 'privacyPolicy' },
+  },
+  {
+    path: '/es/cookies',
+    name: 'cookie-policy-es',
+    component: CookiePolicyView,
+    meta: { locale: 'es', seoKey: 'cookiePolicy' },
+  },
 
   // ── English routes ──────────────────────────────────────────
   {
@@ -78,6 +99,24 @@ const routes = [
     name: 'publications-en',
     component: PublicationsView,
     meta: { locale: 'en', seoKey: 'publications' },
+  },
+  {
+    path: '/en/legal-notice',
+    name: 'legal-notice-en',
+    component: LegalNoticeView,
+    meta: { locale: 'en', seoKey: 'legalNotice' },
+  },
+  {
+    path: '/en/privacy-policy',
+    name: 'privacy-policy-en',
+    component: PrivacyPolicyView,
+    meta: { locale: 'en', seoKey: 'privacyPolicy' },
+  },
+  {
+    path: '/en/cookies',
+    name: 'cookie-policy-en',
+    component: CookiePolicyView,
+    meta: { locale: 'en', seoKey: 'cookiePolicy' },
   },
 
   // Catch-all fallback
