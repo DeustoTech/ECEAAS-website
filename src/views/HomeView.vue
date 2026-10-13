@@ -48,7 +48,7 @@ import HeroSection     from '@/components/sections/HeroSection.vue'
 import UniversityLogos from '@/components/sections/UniversityLogos.vue'
 import ObjectiveCard   from '@/components/ui/ObjectiveCard.vue'
 
-const { tm, t } = useI18n()
+const { tm } = useI18n()
 
 /** Reactive list of objective texts from i18n */
 const objectives = computed(() => tm('home.objectives'))

@@ -36,8 +36,7 @@
 /**
  * HeroSection — displays the ECEAAS logo, project tagline,
  * and the PID reference strip below the hero image.
- * Texts are fully i18n-driven.
+ * Texts are fully i18n-driven via $t() in template.
+ * No script-level imports needed.
  */
-import { useI18n } from 'vue-i18n'
-const { t } = useI18n()
 </script>
