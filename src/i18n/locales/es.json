@@ -1,0 +1,190 @@
+{
+  "lang": "es",
+  "nav": {
+    "home": "Inicio",
+    "project": "Proyecto",
+    "team": "Equipo",
+    "publications": "Publicaciones"
+  },
+  "hero": {
+    "title": "Entornos Cognitivos para el Envejecimiento Autónomo, Activo y Saludable",
+    "acronym": "ECEAAS",
+    "pids": "PID2024-158490OB-C31, PID2024-158490OB-C32, PID2024-158490OB-C33",
+    "funding": "Plan Estatal de Investigación Científica, Técnica y de Innovación — Proyectos de Generación de Conocimiento 2024"
+  },
+  "home": {
+    "seo": {
+      "title": "ECEAAS — Inicio",
+      "description": "Proyecto ECEAAS: desarrollo de entornos cognitivos para el envejecimiento autónomo, activo y saludable mediante inteligencia artificial e IoT."
+    },
+    "aboutTitle": "Sobre el proyecto",
+    "about1": "El proyecto ECEAAS (Entornos Cognitivos para el Envejecimiento Autónomo, Activo y Saludable) tiene como objetivo desarrollar una nueva generación de entornos cognitivos capaces de mejorar la calidad de vida de las personas mayores mediante el uso combinado de inteligencia artificial, modelos de lenguaje, redes de sensores, dispositivos IoT y tecnologías avanzadas de comunicación. Estos entornos integran información procedente de las personas y de su contexto para comprender su situación, anticipar necesidades y ofrecer un apoyo personalizado tanto a los propios usuarios como a cuidadores y profesionales sanitarios. Todo ello se desarrolla bajo un enfoque basado en la privacidad, la seguridad, la ética y la explicabilidad de la inteligencia artificial.",
+    "about2": "El propósito de ECEAAS es contribuir a afrontar uno de los principales retos sociales de las próximas décadas: el envejecimiento de la población. Para ello, el proyecto investiga cómo los entornos cognitivos pueden favorecer un envejecimiento más autónomo, activo y saludable mediante la detección temprana de riesgos, la personalización de intervenciones y el apoyo continuo a la toma de decisiones en entornos asistenciales y residenciales. Gracias a una arquitectura distribuida que integra adquisición de datos, conectividad avanzada, aprendizaje automático y representación del conocimiento, el sistema aprende continuamente del comportamiento y de la evolución de cada persona para proporcionar recomendaciones proactivas y adaptadas a sus necesidades. Estas capacidades serán validadas en distintos escenarios reales, contribuyendo a mejorar el bienestar de las personas mayores, reducir la carga sobre cuidadores y profesionales sanitarios y favorecer un modelo de atención más personalizado, eficiente y sostenible.",
+    "objectivesTitle": "Objetivos",
+    "objectives": [
+      "Diseñar entornos cognitivos inteligentes orientados a favorecer un envejecimiento autónomo, activo y saludable, integrando tecnologías digitales capaces de adaptarse a las necesidades cambiantes de las personas mayores.",
+      "Desarrollar infraestructuras avanzadas de comunicaciones y sensado que permitan la adquisición continua, fiable y eficiente de información procedente de personas, dispositivos y entorno, aprovechando las capacidades de las futuras redes de comunicación.",
+      "Integrar datos heterogéneos y multimodales procedentes de sensores, dispositivos IoT, historiales clínicos y otras fuentes de información para construir una representación contextual completa del estado de cada usuario.",
+      "Desarrollar modelos de inteligencia artificial e inteligencia agéntica capaces de aprender continuamente del comportamiento de los usuarios, comprender el contexto y proporcionar recomendaciones e intervenciones personalizadas.",
+      "Incorporar modelos de lenguaje y representación del conocimiento para facilitar una interacción natural con usuarios, cuidadores y profesionales, mejorando la interpretación de la información y el soporte a la toma de decisiones.",
+      "Desarrollar sistemas explicables, transparentes y centrados en las personas, garantizando que las recomendaciones generadas por la inteligencia artificial sean comprensibles, fiables y adaptadas a las necesidades de todos los agentes implicados.",
+      "Garantizar la seguridad, la privacidad y el uso ético de los datos, incorporando mecanismos de protección desde el diseño y promoviendo una inteligencia artificial responsable y alineada con la normativa vigente.",
+      "Diseñar soluciones sostenibles, eficientes y escalables, optimizando el consumo energético, la capacidad de procesamiento y el despliegue de infraestructuras para facilitar su adopción en distintos entornos asistenciales.",
+      "Validar las tecnologías desarrolladas en escenarios reales, evaluando su rendimiento, usabilidad e impacto sobre la autonomía, la calidad de vida de las personas mayores y la eficiencia de los servicios de atención y cuidados."
+    ],
+    "objectiveIcons": ["🏠", "📡", "🔗", "🤖", "💬", "🔍", "🔒", "⚡", "✅"]
+  },
+  "project": {
+    "seo": {
+      "title": "ECEAAS — Proyecto",
+      "description": "Estructura del proyecto coordinado ECEAAS: subproyectos ECEAAS-COG, ECEAAS-ISAC y ECEAAS-DATA y paquetes de trabajo."
+    },
+    "coordinatedTitle": "Proyecto coordinado",
+    "coordinatedText": "El proyecto ECEAAS aprovecha las sinergias de tres grupos de investigación: Universitat Rovira i Virgili, Universidad Pública de Navarra y Universidad de Deusto, estructurando el proyecto en tres subproyectos complementarios que abarcan desde las infraestructuras de comunicaciones y sensado hasta la gestión inteligente de los datos y el desarrollo del marco cognitivo que integra todas las capacidades del sistema.",
+    "subprojects": [
+      {
+        "id": "cog",
+        "name": "ECEAAS-COG",
+        "subtitle": "Integración cognitiva de sistemas inteligentes y contextuales para el Envejecimiento Activo",
+        "description": "Este subproyecto desarrolla el marco cognitivo que integra todos los componentes tecnológicos del proyecto para crear entornos inteligentes orientados al envejecimiento activo y saludable. Además de definir la arquitectura global del sistema, aborda aspectos transversales como la seguridad, la privacidad y la ética desde el diseño, incorporando modelos de inteligencia artificial, modelos de lenguaje, ontologías y técnicas de representación del conocimiento para proporcionar recomendaciones personalizadas y apoyo a la toma de decisiones en entornos asistenciales.",
+        "university": "Universitat Rovira i Virgili",
+        "logo": "urv.png"
+      },
+      {
+        "id": "isac",
+        "name": "ECEAAS-ISAC",
+        "subtitle": "Capacidades de Comunicaciones y Sensado para Entornos Cognitivos de Envejecimiento Activo",
+        "description": "Este subproyecto aborda el desarrollo de las infraestructuras de comunicaciones y sensado que permiten la adquisición continua y fiable de información en los entornos cognitivos. Para ello investiga nuevas técnicas de modelado electromagnético, comunicaciones inalámbricas, sensado integrado y tecnologías de conectividad de nueva generación, incluyendo capacidades orientadas a 6G, con el objetivo de proporcionar una infraestructura escalable y eficiente que facilite la integración de múltiples dispositivos y sensores en escenarios asistenciales reales.",
+        "university": "Universidad Pública de Navarra",
+        "logo": "upna.png"
+      },
+      {
+        "id": "data",
+        "name": "ECEAAS-DATA",
+        "subtitle": "Framework IoT para la adquisición y análisis de datos en entornos asistenciales mediante técnicas de Inteligencia Artificial",
+        "description": "Este subproyecto desarrolla la infraestructura de datos que sustenta el funcionamiento de los entornos cognitivos, abordando la adquisición, integración, almacenamiento y análisis de información procedente de fuentes heterogéneas. Asimismo, incorpora técnicas avanzadas de inteligencia artificial y aprendizaje automático para transformar los datos en conocimiento útil, facilitando la toma de decisiones, la personalización de los servicios y la validación de las soluciones desarrolladas en escenarios reales, así como su transferencia y explotación.",
+        "university": "Universidad de Deusto",
+        "logo": "deusto.png"
+      }
+    ],
+    "wpTitle": "Paquetes de Trabajo (WP)",
+    "wpIntro": "Para la correcta realización del proyecto se ha definido un plan de trabajo estructurado en siete paquetes de trabajo, que abarcan desde la coordinación del proyecto hasta la validación de las soluciones desarrolladas y la transferencia de resultados. La organización de estos paquetes garantiza una ejecución coordinada e incremental de los objetivos científicos y tecnológicos del proyecto, facilitando la integración de los tres subproyectos y la evaluación continua de los resultados obtenidos.",
+    "workPackages": [
+      "WP1. Gestión y Coordinación del Proyecto",
+      "WP2. Seguridad, Privacidad e Inteligencia Artificial Ética desde el Diseño",
+      "WP3. Análisis e Implementación de Infraestructuras de Comunicaciones y Sensado para Entornos Cognitivos",
+      "WP4. Inteligencia Artificial para la Adquisición, Integración y Análisis de Datos Multimodales",
+      "WP5. Integración Cognitiva",
+      "WP6. Pilotos y Validación en Entornos Reales",
+      "WP7. Diseminación y Explotación"
+    ],
+    "wpDistTitle": "Distribución de los paquetes de trabajo",
+    "wpDistText": "Los tres subproyectos de ECEAAS están interrelacionados, lo que hace que la colaboración sea una necesidad en este proyecto."
+  },
+  "team": {
+    "seo": {
+      "title": "ECEAAS — Equipo",
+      "description": "Equipo investigador del proyecto ECEAAS: grupos de investigación de URV, UPNA y Universidad de Deusto."
+    },
+    "title": "Equipo",
+    "piLabel": "Investigador/a principal",
+    "researchersLabel": "Investigadores/as del subproyecto",
+    "institutions": [
+      {
+        "id": "urv",
+        "name": "Universitat Rovira i Virgili",
+        "groupName": "Smart Technologies Research Group",
+        "logo": "urv.png",
+        "description": "El Smart Technologies Research Group de la Universitat Rovira i Virgili aplica las Tecnologías de la Información y la Comunicación (TIC), incluyendo Internet de las Cosas, Inteligencia Artificial, tecnologías de mejora de la privacidad y minería de procesos, al desarrollo de soluciones para ámbitos como la salud digital, el transporte inteligente, los entornos asistenciales y los sistemas cognitivos. El grupo desarrolla investigación en escenarios inteligentes y conscientes del contexto, prestando especial atención a la seguridad, la privacidad y los aspectos éticos asociados al uso de estas tecnologías.",
+        "subproject": "ECEAAS-COG",
+        "pis": [
+          {
+            "name": "Fran Casino",
+            "role": "Investigador principal — ECEAAS-COG",
+            "photo": "Fran Casino.jpg",
+            "bio": "Fran Casino es profesor e investigador del Departamento de Ingeniería Informática y Matemáticas de la Universitat Rovira i Virgili e investigador del Athena Research Center (Grecia). Es Doctor en Ingeniería Informática por la URV, donde obtuvo la máxima calificación y el premio extraordinario de doctorado. Ha participado en numerosos proyectos nacionales e internacionales, incluyendo diversos proyectos europeos de Horizonte 2020 y Horizonte Europa. Su investigación combina diferentes disciplinas en torno a la inteligencia artificial, la ciberseguridad, la privacidad, la gestión de datos, la computación cognitiva, los sistemas de recomendación y blockchain. Es autor de más de 70 publicaciones científicas, Senior Member del IEEE y figura entre el 2% de científicos más influyentes del mundo según la clasificación elaborada por la Universidad de Stanford."
+          },
+          {
+            "name": "Antoni Martínez-Ballesté",
+            "role": "Investigador principal — ECEAAS-COG",
+            "photo": "Antoni Martinez.png",
+            "bio": "Antoni Martínez-Ballesté es profesor del Departamento de Ingeniería Informática y Matemáticas de la Universitat Rovira i Virgili e investigador del Smart Technologies Research Group. Doctor en Ingeniería Telemática por la Universitat Politècnica de Catalunya, desarrolla su actividad investigadora en el ámbito de los entornos inteligentes, la salud digital, la privacidad, la seguridad y la Inteligencia Artificial aplicada. Ha participado y liderado numerosos proyectos nacionales e internacionales de investigación y transferencia tecnológica, es autor de un amplio número de publicaciones científicas y colabora habitualmente como editor, revisor y miembro de comités científicos de congresos y revistas internacionales."
+          }
+        ],
+        "researchers": [
+          "Agusti Solanas", "Maria Ferré", "Àngels Moncusí", "Gerard Fortuny",
+          "Joan Herrero", "Josep M. López Besora", "Dolors Puigjaner",
+          "Edgar Batista", "Mary Bernal", "Constantinos Patsakis",
+          "Juvenal Machín", "Montse García"
+        ]
+      },
+      {
+        "id": "upna",
+        "name": "Universidad Pública de Navarra",
+        "groupName": "Distributed Systems Group",
+        "logo": "upna.png",
+        "description": "El Distributed Systems Group de la Universidad Pública de Navarra fue fundado en 1994 con el objetivo de organizar la actividad investigadora de sus miembros y facilitar la transferencia tecnológica de los resultados obtenidos a la sociedad. Sus principales líneas de investigación incluyen sistemas distribuidos, técnicas de alto rendimiento y escalabilidad, replicación y consistencia de datos, computación en la nube, sistemas concurrentes y en tiempo real, redes de sensores y procesamiento distribuido de datos, contribuyendo al desarrollo de soluciones avanzadas para entornos inteligentes y conectados.",
+        "subproject": "ECEAAS-ISAC",
+        "pis": [
+          {
+            "name": "Leire Azpilicueta",
+            "role": "Investigadora principal — ECEAAS-ISAC",
+            "photo": "Leire Azpilicueta.jpg",
+            "bio": "Leire Azpilicueta es investigadora Ramón y Cajal y profesora de la Universidad Pública de Navarra. Es Ingeniera de Telecomunicación, Máster en Comunicaciones y Doctora en Tecnologías de Telecomunicación por la UPNA. Su actividad investigadora se centra en la propagación radioeléctrica, los sistemas de comunicaciones móviles, las redes inalámbricas de sensores, el modelado de canales y las tecnologías de comunicación para 5G y futuras generaciones. Es autora de más de 250 publicaciones científicas, forma parte del comité editorial de diversas revistas internacionales de referencia y ha recibido numerosos reconocimientos internacionales por su trayectoria investigadora, entre ellos el IEEE AP-S Doctoral Research Award, el IEEE N2Women Rising Stars Award y el premio a la Mejor Tesis Doctoral otorgado por el Colegio Oficial de Ingenieros de Telecomunicación."
+          },
+          {
+            "name": "Jesús Villadangos",
+            "role": "Investigador principal — ECEAAS-ISAC",
+            "photo": "Jesus Villadangos.jpg",
+            "bio": "Jesús Villadangos es Profesor Catedrático de la Universidad Pública de Navarra. Licenciado en Ciencias Físicas por la Universidad del País Vasco y Doctor en Ingeniería de Telecomunicación por la Universidad Pública de Navarra, desarrolla su actividad investigadora en el Distributed Systems Group desde 1996. Sus principales líneas de investigación incluyen los sistemas distribuidos, los sistemas embebidos, los algoritmos distribuidos, la calidad del software y la web semántica y las ontologías, con un marcado enfoque hacia la transferencia tecnológica y el desarrollo de soluciones aplicadas. Además de su actividad investigadora, ha desempeñado diversos cargos de gestión académica y universitaria en la UPNA."
+          }
+        ],
+        "researchers": [
+          "Francisco Falcone", "Jesús Trigo", "Blanca Bujanda", "Mikel Celaya"
+        ]
+      },
+      {
+        "id": "deusto",
+        "name": "Universidad de Deusto",
+        "groupName": "Deusto Smart Mobility",
+        "logo": "deusto.png",
+        "description": "Deusto Smart Mobility centra su actividad en la investigación de las Tecnologías de la Información y la Comunicación (TIC) aplicadas a la movilidad de las personas y al desarrollo de soluciones inteligentes que contribuyan a mejorar su autonomía, bienestar y calidad de vida. Su experiencia en inteligencia artificial, Internet de las Cosas (IoT), analítica de datos y sistemas distribuidos permite el desarrollo de entornos cognitivos capaces de integrar información heterogénea, comprender el contexto y ofrecer servicios inteligentes, adaptativos y explicables para aplicaciones asistenciales y de envejecimiento autónomo, activo y saludable.",
+        "subproject": "ECEAAS-DATA",
+        "pis": [
+          {
+            "name": "Ignacio Angulo",
+            "role": "Investigador principal — ECEAAS-DATA",
+            "photo": "Ignacio Angulo.png",
+            "bio": "Ignacio Angulo es profesor de la Facultad de Ingeniería de la Universidad de Deusto e investigador del grupo Deusto Smart Mobility. Doctor en Informática y Telecomunicaciones por la Universidad de Deusto, desarrolla su actividad investigadora en los ámbitos de los sistemas embebidos, la computación en el borde (Edge Computing), el Internet de las Cosas y las arquitecturas inteligentes para sistemas distribuidos. Ha participado en más de 25 proyectos de investigación nacionales e internacionales, incluyendo varios proyectos europeos, liderando actividades relacionadas con el desarrollo de infraestructuras inteligentes, plataformas IoT y sistemas distribuidos para aplicaciones de movilidad y ciudades inteligentes."
+          },
+          {
+            "name": "Asier Perallos",
+            "role": "Investigador principal — ECEAAS-DATA",
+            "photo": "Asier Perallos.jpg",
+            "bio": "Asier Perallos es Profesor Catedrático en la Universidad de Deusto (acreditado por la ANECA desde 2019). Es doctor e ingeniero en informática por la Universidad de Deusto y desde 1999 es profesor en su Facultad de Ingeniería. Su docencia se focaliza en el diseño de software y bases de datos, habiendo participado en cursos de grado, máster y doctorado. Posee una amplia experiencia en gestión académica, habiendo desempeñado roles como decano de facultad (2016-25), director de departamento (2012-16) y director de varios másteres en el ámbito de la ingeniería del software. En su currículum investigador destacan decenas de proyectos y acciones de transferencia tecnológica a empresa lideradas, más de 60 publicaciones JCR y otras 60 contribuciones científicas en el área, así como 7 tesis doctorales dirigidas."
+          }
+        ],
+        "researchers": [
+          "Enrique Onieva", "Asier Moreno", "Estibaliz Loyo", "Laura Arjona",
+          "Hugo Landaluce", "Pilar Elejoste", "Jon Diaz", "Alcides de Araujo Fernandes"
+        ]
+      }
+    ]
+  },
+  "publications": {
+    "seo": {
+      "title": "ECEAAS — Publicaciones",
+      "description": "Publicaciones científicas del proyecto ECEAAS."
+    },
+    "title": "Publicaciones",
+    "comingSoon": "Próximamente",
+    "message": "Esta sección estará disponible en breve con las publicaciones científicas del proyecto ECEAAS."
+  },
+  "footer": {
+    "contact": "Contacto",
+    "rights": "Proyecto ECEAAS",
+    "fundedBy": "Financiado por",
+    "agency": "Agencia Estatal de Investigación",
+    "credits": "Imágenes de"
+  }
+}

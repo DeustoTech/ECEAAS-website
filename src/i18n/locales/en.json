@@ -1,0 +1,190 @@
+{
+  "lang": "en",
+  "nav": {
+    "home": "Home",
+    "project": "Project",
+    "team": "Team",
+    "publications": "Publications"
+  },
+  "hero": {
+    "title": "Cognitive Environments for healthy, autonomous, and active aging",
+    "acronym": "ECEAAS",
+    "pids": "PID2024-158490OB-C31, PID2024-158490OB-C32, PID2024-158490OB-C33",
+    "funding": "Spanish State Plan for Scientific, Technical and Innovation Research — Knowledge Generation Projects 2024"
+  },
+  "home": {
+    "seo": {
+      "title": "ECEAAS — Home",
+      "description": "ECEAAS project: developing cognitive environments to improve the quality of life of older adults through AI and IoT."
+    },
+    "aboutTitle": "About the project",
+    "about1": "The ECEAAS project (Cognitive Environments for healthy, autonomous, and active aging) aims to develop a new generation of cognitive environments that enhance the quality of life of older adults through the combined use of Artificial Intelligence, Large Language Models (LLMs), sensor networks, IoT devices and advanced communication technologies. These environments integrate information from individuals and their surrounding context to understand their current situation, anticipate future needs, and provide personalised support for users, caregivers and healthcare professionals. The project follows a privacy-, security-, ethics- and trustworthiness-by-design approach, ensuring that AI systems are explainable, reliable and aligned with human values.",
+    "about2": "ECEAAS addresses one of the major societal challenges of the coming decades: population ageing. The project investigates how cognitive environments can promote more autonomous, active and healthy ageing through early risk detection, personalised interventions and continuous decision support in healthcare and assisted living settings. Based on a distributed architecture that combines data acquisition, advanced connectivity, machine learning and knowledge representation, the system continuously learns from each person's behaviour and health evolution to deliver proactive recommendations tailored to individual needs. These capabilities will be validated in real-world scenarios, contributing to improved well-being for older adults, reduced burden on caregivers and healthcare professionals, and more personalised, efficient and sustainable models of care.",
+    "objectivesTitle": "Objectives",
+    "objectives": [
+      "Design intelligent cognitive environments that promote autonomous, active and healthy ageing by integrating digital technologies capable of adapting to the evolving needs of older adults.",
+      "Develop advanced communication and sensing infrastructures to enable the continuous, reliable and efficient acquisition of information from people, devices and the surrounding environment, leveraging the capabilities of next-generation communication networks.",
+      "Integrate heterogeneous and multimodal data from sensors, IoT devices, electronic health records and other information sources to build a comprehensive contextual representation of each user's condition.",
+      "Develop Artificial Intelligence and Agentic AI models capable of continuously learning from user behaviour, understanding contextual information, and delivering personalised recommendations and interventions.",
+      "Incorporate Large Language Models and knowledge representation techniques to enable natural interaction with users, caregivers and healthcare professionals, improving information interpretation and decision support.",
+      "Develop explainable, transparent and human-centred systems, ensuring that AI-generated recommendations are understandable, trustworthy and tailored to the needs of all stakeholders.",
+      "Ensure security, privacy and the ethical use of data by incorporating protection mechanisms by design and promoting responsible Artificial Intelligence in compliance with current regulations.",
+      "Design sustainable, efficient and scalable solutions by optimising energy consumption, processing capabilities and infrastructure deployment to facilitate adoption across a wide range of healthcare and assisted living environments.",
+      "Validate the developed technologies in real-world scenarios, evaluating their performance, usability and impact on older adults' autonomy, quality of life, and the efficiency of healthcare and care services."
+    ],
+    "objectiveIcons": ["🏠", "📡", "🔗", "🤖", "💬", "🔍", "🔒", "⚡", "✅"]
+  },
+  "project": {
+    "seo": {
+      "title": "ECEAAS — Project",
+      "description": "Structure of the coordinated ECEAAS project: subprojects ECEAAS-COG, ECEAAS-ISAC and ECEAAS-DATA and work packages."
+    },
+    "coordinatedTitle": "Coordinated Project",
+    "coordinatedText": "The ECEAAS project brings together the complementary expertise of three research groups—Universitat Rovira i Virgili, Public University of Navarre, and the University of Deusto—through a coordinated structure consisting of three complementary subprojects. Together, they cover the entire technological stack, from advanced communication and sensing infrastructures to intelligent data management and the cognitive framework that integrates all system capabilities.",
+    "subprojects": [
+      {
+        "id": "cog",
+        "name": "ECEAAS-COG",
+        "subtitle": "Cognitive integration of contextual and intelligent systems for Active Aging",
+        "description": "This subproject develops the cognitive framework that integrates all the technological components of the project to create intelligent environments supporting active and healthy ageing. In addition to defining the overall system architecture, it addresses cross-cutting aspects such as security, privacy and ethics by design, incorporating Artificial Intelligence, Large Language Models, ontologies and knowledge representation techniques to provide personalised recommendations and decision support in healthcare and assisted living environments.",
+        "university": "Universitat Rovira i Virgili",
+        "logo": "urv.png"
+      },
+      {
+        "id": "isac",
+        "name": "ECEAAS-ISAC",
+        "subtitle": "Communication and Sensing Capabilities for Active Aging Cognitive Environments",
+        "description": "This subproject focuses on the development of the communication and sensing infrastructures that enable the continuous and reliable acquisition of information within cognitive environments. It investigates novel electromagnetic modelling techniques, wireless communications, integrated sensing and next-generation connectivity technologies, including 6G-oriented capabilities, with the objective of providing a scalable and efficient infrastructure for the seamless integration of multiple devices and sensors in real-world healthcare and assisted living scenarios.",
+        "university": "Public University of Navarre",
+        "logo": "upna.png"
+      },
+      {
+        "id": "data",
+        "name": "ECEAAS-DATA",
+        "subtitle": "IoT framework for data acquisition and analysis in ambient assisted living using Artificial Intelligence techniques",
+        "description": "This subproject develops the data infrastructure that underpins the operation of cognitive environments by addressing the acquisition, integration, storage and analysis of information from heterogeneous sources. It also incorporates advanced Artificial Intelligence and Machine Learning techniques to transform data into actionable knowledge, enabling decision support, service personalisation, and the validation of the proposed solutions in real-world scenarios, while facilitating their transfer and exploitation.",
+        "university": "University of Deusto",
+        "logo": "deusto.png"
+      }
+    ],
+    "wpTitle": "Work Packages",
+    "wpIntro": "To ensure the successful execution of the project, a work plan has been defined and structured into seven Work Packages (WPs), covering all project activities from overall coordination to the validation of the developed solutions and the dissemination and exploitation of results. This organisation provides a coordinated and incremental implementation of the project's scientific and technological objectives, facilitating the integration of the three subprojects and the continuous evaluation of the outcomes achieved.",
+    "workPackages": [
+      "WP1. Project Management and Coordination",
+      "WP2. Security, Privacy, and Ethical AI by Design",
+      "WP3. Analysis and Implementation of Communication and Sensing Infrastructure towards Cognitive Scenarios",
+      "WP4. AI for Multimodal Data Collection, Integration, and Analysis",
+      "WP5. Cognitive Integration",
+      "WP6. Pilots, Testing and Validation",
+      "WP7. Dissemination and Exploitation"
+    ],
+    "wpDistTitle": "Distribution of the Work Packages",
+    "wpDistText": "The three ECEAAS subprojects are closely interconnected, making collaboration an essential element of the project."
+  },
+  "team": {
+    "seo": {
+      "title": "ECEAAS — Team",
+      "description": "Research team of the ECEAAS project: research groups from URV, UPNA and University of Deusto."
+    },
+    "title": "Team",
+    "piLabel": "Principal Investigator",
+    "researchersLabel": "Subproject Researchers",
+    "institutions": [
+      {
+        "id": "urv",
+        "name": "Universitat Rovira i Virgili",
+        "groupName": "Smart Technologies Research Group",
+        "logo": "urv.png",
+        "description": "The Smart Technologies Research Group at Universitat Rovira i Virgili applies Information and Communication Technologies (ICT), including the Internet of Things (IoT), Artificial Intelligence, Privacy-Enhancing Technologies (PETs) and process mining, to develop innovative solutions for domains such as digital health, intelligent transportation, assisted living environments and cognitive systems. The group conducts research on intelligent and context-aware environments, with a strong focus on security, privacy and the ethical aspects associated with the deployment of these technologies.",
+        "subproject": "ECEAAS-COG",
+        "pis": [
+          {
+            "name": "Fran Casino",
+            "role": "Principal Investigator — ECEAAS-COG",
+            "photo": "Fran Casino.jpg",
+            "bio": "Fran Casino is Associate Professor in the Department of Computer Engineering and Mathematics at Universitat Rovira i Virgili and Researcher at the Athena Research Center (Greece). He received his PhD in Computer Engineering from URV with the highest distinction and the Extraordinary Doctoral Award. He has participated in numerous national and international research projects, including several Horizon 2020 and Horizon Europe projects. His research combines Artificial Intelligence, cybersecurity, privacy, data management, cognitive computing, recommender systems and blockchain technologies. He is the author of more than 70 scientific publications, a Senior Member of IEEE, and has been recognised among the world's top 2% most influential scientists in the Stanford University ranking."
+          },
+          {
+            "name": "Antoni Martínez-Ballesté",
+            "role": "Principal Investigator — ECEAAS-COG",
+            "photo": "Antoni Martinez.png",
+            "bio": "Antoni Martínez-Ballesté is Associate Professor in the Department of Computer Engineering and Mathematics at Universitat Rovira i Virgili and a researcher in the Smart Technologies Research Group. He holds a PhD in Telematics Engineering from the Universitat Politècnica de Catalunya. His research focuses on intelligent environments, digital health, privacy, security and applied Artificial Intelligence. He has led and participated in numerous national and international research and technology transfer projects, is the author of a large number of scientific publications, and regularly serves as editor, reviewer and member of the scientific committees of leading international conferences and journals."
+          }
+        ],
+        "researchers": [
+          "Agusti Solanas", "Maria Ferré", "Àngels Moncusí", "Gerard Fortuny",
+          "Joan Herrero", "Josep M. López Besora", "Dolors Puigjaner",
+          "Edgar Batista", "Mary Bernal", "Constantinos Patsakis",
+          "Juvenal Machín", "Montse García"
+        ]
+      },
+      {
+        "id": "upna",
+        "name": "Public University of Navarre",
+        "groupName": "Distributed Systems Group",
+        "logo": "upna.png",
+        "description": "The Distributed Systems Group at the Public University of Navarre was founded in 1994 with the aim of promoting collaborative research and facilitating the transfer of scientific and technological advances to society. Its main research areas include distributed systems, high-performance and scalable computing, data replication and consistency, cloud computing, concurrent and real-time systems, wireless sensor networks, and distributed data processing, contributing to the development of advanced solutions for intelligent and connected environments.",
+        "subproject": "ECEAAS-ISAC",
+        "pis": [
+          {
+            "name": "Leire Azpilicueta",
+            "role": "Principal Investigator — ECEAAS-ISAC",
+            "photo": "Leire Azpilicueta.jpg",
+            "bio": "Leire Azpilicueta is a Ramón y Cajal Research Fellow and Associate Professor at the Public University of Navarre. She holds a degree in Telecommunication Engineering, an MSc in Communications, and a PhD in Telecommunication Technologies from UPNA. Her research focuses on radio propagation, mobile communication systems, wireless sensor networks, wireless channel modelling, and communication technologies for 5G and future-generation networks. She is the author of more than 250 scientific publications, serves on the editorial boards of several leading international journals, and has received numerous international distinctions, including the IEEE AP-S Doctoral Research Award, the IEEE N2Women Rising Stars Award, and the Best PhD Thesis Award from the Spanish Official Association of Telecommunication Engineers."
+          },
+          {
+            "name": "Jesús Villadangos",
+            "role": "Principal Investigator — ECEAAS-ISAC",
+            "photo": "Jesus Villadangos.jpg",
+            "bio": "Jesús Villadangos is Full Professor at the Public University of Navarre. He received a degree in Physics from the University of the Basque Country and a PhD in Telecommunication Engineering from UPNA. He has been a member of the Distributed Systems Group since 1996. His research interests include distributed systems, embedded systems, distributed algorithms, software quality, the Semantic Web, and ontologies, with a strong emphasis on technology transfer and the development of applied solutions. Alongside his research activities, he has held several academic leadership and management positions at UPNA."
+          }
+        ],
+        "researchers": [
+          "Francisco Falcone", "Jesús Trigo", "Blanca Bujanda", "Mikel Celaya"
+        ]
+      },
+      {
+        "id": "deusto",
+        "name": "University of Deusto",
+        "groupName": "Deusto Smart Mobility",
+        "logo": "deusto.png",
+        "description": "Deusto Smart Mobility focuses on research into Information and Communication Technologies (ICT) applied to human mobility and the development of intelligent solutions that enhance people's autonomy, well-being and quality of life. The group's expertise in Artificial Intelligence, the Internet of Things (IoT), data analytics and distributed systems enables the development of cognitive environments capable of integrating heterogeneous information, understanding context, and delivering intelligent, adaptive and explainable services for healthcare and healthy, autonomous and active ageing applications.",
+        "subproject": "ECEAAS-DATA",
+        "pis": [
+          {
+            "name": "Ignacio Angulo",
+            "role": "Principal Investigator — ECEAAS-DATA",
+            "photo": "Ignacio Angulo.png",
+            "bio": "Ignacio Angulo is Associate Professor at the Faculty of Engineering of the University of Deusto and a researcher in the Deusto Smart Mobility research group. He holds a PhD in Computer Science and Telecommunications from the University of Deusto. His research focuses on embedded systems, Edge Computing, the Internet of Things (IoT), and intelligent architectures for distributed systems. He has participated in more than 25 national and international research projects, including several European initiatives, leading activities related to the development of intelligent infrastructures, IoT platforms and distributed systems for mobility and smart environment applications."
+          },
+          {
+            "name": "Asier Perallos",
+            "role": "Principal Investigator — ECEAAS-DATA",
+            "photo": "Asier Perallos.jpg",
+            "bio": "Asier Perallos is Full Professor at the University of Deusto, where he has been a member of the Faculty of Engineering since 1999. He holds a PhD in Computer Science from the University of Deusto. He has extensive academic leadership experience, having served as Dean of the Faculty of Engineering, Head of Department, and Director of several master's programmes in Software Engineering. He has led numerous research and innovation projects, authored more than 60 JCR-indexed publications and around 60 additional scientific contributions, supervised seven PhD theses, and has been awarded two national research excellence periods (sexenios de investigación) and one technology transfer excellence period (sexenio de transferencia)."
+          }
+        ],
+        "researchers": [
+          "Enrique Onieva", "Asier Moreno", "Estibaliz Loyo", "Laura Arjona",
+          "Hugo Landaluce", "Pilar Elejoste", "Jon Diaz", "Alcides de Araujo Fernandes"
+        ]
+      }
+    ]
+  },
+  "publications": {
+    "seo": {
+      "title": "ECEAAS — Publications",
+      "description": "Scientific publications of the ECEAAS project."
+    },
+    "title": "Publications",
+    "comingSoon": "Coming soon",
+    "message": "This section will be available shortly with the scientific publications of the ECEAAS project."
+  },
+  "footer": {
+    "contact": "Contact",
+    "rights": "ECEAAS Project",
+    "fundedBy": "Funded by",
+    "agency": "Spanish State Research Agency",
+    "credits": "Photos from"
+  }
+}

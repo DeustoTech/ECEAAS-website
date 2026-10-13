@@ -1,0 +1,631 @@
+/* ============================================================
+   components.css — Reusable UI component styles
+   AppHeader, AppFooter, ObjectiveCard, SubprojectCard,
+   TeamMemberCard, WorkPackageItem, UniversityLogos, HeroSection
+   ============================================================ */
+
+/* ── AppHeader ─────────────────────────────────────────────── */
+.app-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  height: var(--header-height);
+  background: var(--color-white);
+  border-bottom: 1px solid var(--color-border);
+  box-shadow: var(--shadow-sm);
+}
+
+.header-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+  gap: var(--space-6);
+}
+
+.header-brand {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+  text-decoration: none;
+  flex-shrink: 0;
+}
+
+.header-brand:hover {
+  text-decoration: none;
+}
+
+.header-logo {
+  height: 44px;
+  width: auto;
+  object-fit: contain;
+}
+
+.header-brand-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.header-brand-acronym {
+  font-size: var(--font-size-xl);
+  font-weight: 700;
+  color: var(--color-primary);
+  line-height: 1;
+}
+
+.header-brand-subtitle {
+  font-size: var(--font-size-xs);
+  color: var(--color-text-muted);
+  font-weight: 400;
+  line-height: 1.2;
+  max-width: 220px;
+}
+
+/* ── Main navigation ───────────────────────────────────────── */
+.header-nav {
+  display: flex;
+  align-items: center;
+  gap: var(--space-1);
+}
+
+.nav-link {
+  padding: var(--space-2) var(--space-4);
+  font-size: var(--font-size-sm);
+  font-weight: 500;
+  color: var(--color-text-muted);
+  text-decoration: none;
+  border-radius: var(--radius-sm);
+  transition: color var(--transition-fast), background var(--transition-fast);
+  white-space: nowrap;
+}
+
+.nav-link:hover {
+  color: var(--color-primary);
+  background: var(--color-primary-light);
+  text-decoration: none;
+}
+
+.nav-link.router-link-active,
+.nav-link.active {
+  color: var(--color-primary);
+  font-weight: 600;
+}
+
+.nav-link.disabled {
+  color: var(--color-border);
+  pointer-events: none;
+  cursor: default;
+}
+
+/* ── Language toggle ───────────────────────────────────────── */
+.lang-toggle {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  margin-left: var(--space-4);
+  border-left: 1px solid var(--color-border);
+  padding-left: var(--space-4);
+}
+
+.lang-btn {
+  display: flex;
+  align-items: center;
+  gap: var(--space-1);
+  padding: var(--space-1) var(--space-3);
+  font-size: var(--font-size-sm);
+  font-weight: 500;
+  color: var(--color-text-muted);
+  border-radius: var(--radius-sm);
+  transition: all var(--transition-fast);
+  text-decoration: none;
+}
+
+.lang-btn:hover,
+.lang-btn.active {
+  color: var(--color-primary);
+  background: var(--color-primary-light);
+  text-decoration: none;
+}
+
+.lang-btn.active {
+  font-weight: 600;
+}
+
+.lang-flag {
+  font-size: 1.1em;
+  line-height: 1;
+}
+
+/* ── Mobile hamburger ──────────────────────────────────────── */
+.hamburger {
+  display: none;
+  flex-direction: column;
+  gap: 5px;
+  padding: var(--space-2);
+  cursor: pointer;
+}
+
+.hamburger span {
+  display: block;
+  width: 24px;
+  height: 2px;
+  background: var(--color-text);
+  border-radius: 2px;
+  transition: transform var(--transition-base);
+}
+
+.mobile-menu {
+  display: none;
+  position: fixed;
+  top: var(--header-height);
+  left: 0;
+  right: 0;
+  background: var(--color-white);
+  border-bottom: 1px solid var(--color-border);
+  box-shadow: var(--shadow-md);
+  padding: var(--space-4);
+  flex-direction: column;
+  gap: var(--space-2);
+  z-index: 999;
+}
+
+.mobile-menu.open {
+  display: flex;
+}
+
+.mobile-menu .nav-link {
+  padding: var(--space-3) var(--space-4);
+  font-size: var(--font-size-base);
+}
+
+.mobile-lang {
+  display: flex;
+  gap: var(--space-2);
+  padding-top: var(--space-3);
+  border-top: 1px solid var(--color-border);
+  margin-top: var(--space-2);
+}
+
+@media (max-width: 768px) {
+  .header-nav,
+  .lang-toggle {
+    display: none;
+  }
+
+  .hamburger {
+    display: flex;
+  }
+
+  .header-brand-subtitle {
+    display: none;
+  }
+}
+
+/* ── AppFooter ─────────────────────────────────────────────── */
+.app-footer {
+  background: var(--color-footer-bg);
+  color: var(--color-footer-text);
+  padding: var(--space-8) 0;
+  margin-top: var(--space-16);
+}
+
+.footer-inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-4);
+  text-align: center;
+}
+
+.footer-title {
+  font-size: var(--font-size-base);
+  font-weight: 600;
+  color: var(--color-white);
+}
+
+.footer-pids {
+  font-size: var(--font-size-sm);
+  color: var(--color-footer-text);
+  font-style: italic;
+}
+
+.footer-funding {
+  font-size: var(--font-size-xs);
+  color: var(--color-footer-text);
+  opacity: 0.8;
+}
+
+.footer-divider {
+  width: 40px;
+  height: 1px;
+  background: rgba(255,255,255,.15);
+}
+
+.footer-copy {
+  font-size: var(--font-size-xs);
+  color: var(--color-footer-text);
+  opacity: 0.6;
+}
+
+/* ── HeroSection ───────────────────────────────────────────── */
+.hero {
+  background: linear-gradient(135deg, #e8eef3 0%, #d0dae4 50%, #c8d8e8 100%);
+  padding: 0;
+  overflow: hidden;
+}
+
+.hero-inner {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  min-height: 340px;
+}
+
+.hero-image-wrap {
+  position: relative;
+  height: 340px;
+  overflow: hidden;
+}
+
+.hero-image {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  padding: var(--space-8);
+}
+
+.hero-content {
+  padding: var(--space-12) var(--space-8);
+}
+
+.hero-title {
+  font-size: var(--font-size-3xl);
+  font-weight: 700;
+  color: var(--color-text);
+  line-height: 1.2;
+  margin-bottom: var(--space-6);
+}
+
+.hero-title span {
+  color: var(--color-primary);
+}
+
+/* ── Reference info strip ──────────────────────────────────── */
+.ref-strip {
+  background: var(--color-white);
+  border-top: 1px solid var(--color-border);
+  border-bottom: 1px solid var(--color-border);
+  padding: var(--space-6) 0;
+  text-align: center;
+}
+
+.ref-strip-pids {
+  font-size: var(--font-size-sm);
+  font-weight: 600;
+  color: var(--color-text);
+  margin-bottom: var(--space-1);
+}
+
+.ref-strip-funding {
+  font-size: var(--font-size-sm);
+  color: var(--color-text-muted);
+}
+
+/* ── UniversityLogos strip ─────────────────────────────────── */
+.university-logos {
+  background: var(--color-white);
+  padding: var(--space-8) 0;
+}
+
+.logos-inner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-12);
+  flex-wrap: wrap;
+}
+
+.uni-logo-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-2);
+}
+
+.uni-logo-img {
+  height: 52px;
+  width: auto;
+  object-fit: contain;
+  filter: grayscale(20%);
+  transition: filter var(--transition-base);
+}
+
+.uni-logo-img:hover {
+  filter: grayscale(0%);
+}
+
+/* ── ObjectiveCard ─────────────────────────────────────────── */
+.objective-card {
+  background: var(--color-card-bg);
+  border-radius: var(--radius-md);
+  padding: var(--space-6);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+  transition: transform var(--transition-base), box-shadow var(--transition-base);
+}
+
+.objective-card:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-md);
+}
+
+.objective-icon {
+  font-size: 1.75rem;
+  line-height: 1;
+}
+
+.objective-text {
+  font-size: var(--font-size-sm);
+  color: var(--color-text);
+  line-height: 1.6;
+  margin: 0;
+}
+
+/* ── SubprojectCard ────────────────────────────────────────── */
+.subproject-card {
+  background: var(--color-card-bg);
+  border-radius: var(--radius-lg);
+  padding: var(--space-8);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+  border-top: 4px solid var(--color-primary);
+  transition: box-shadow var(--transition-base);
+}
+
+.subproject-card:hover {
+  box-shadow: var(--shadow-md);
+}
+
+.subproject-name {
+  font-size: var(--font-size-xl);
+  font-weight: 700;
+  color: var(--color-primary);
+}
+
+.subproject-subtitle {
+  font-size: var(--font-size-base);
+  font-weight: 600;
+  color: var(--color-text);
+  font-style: italic;
+  line-height: 1.4;
+}
+
+.subproject-desc {
+  font-size: var(--font-size-sm);
+  color: var(--color-text-muted);
+  line-height: 1.7;
+  margin: 0;
+}
+
+.subproject-uni {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  margin-top: auto;
+  padding-top: var(--space-4);
+  border-top: 1px solid var(--color-border);
+}
+
+.subproject-uni-logo {
+  height: 28px;
+  width: auto;
+  object-fit: contain;
+}
+
+.subproject-uni-name {
+  font-size: var(--font-size-xs);
+  color: var(--color-text-muted);
+  font-weight: 500;
+}
+
+/* ── WorkPackageItem ───────────────────────────────────────── */
+.wp-item {
+  background: var(--color-white);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-sm);
+  padding: var(--space-4) var(--space-6);
+  font-size: var(--font-size-sm);
+  color: var(--color-text);
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+  transition: background var(--transition-fast), border-color var(--transition-fast);
+}
+
+.wp-item::before {
+  content: '';
+  display: block;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--color-primary);
+  flex-shrink: 0;
+}
+
+.wp-item:hover {
+  background: var(--color-primary-light);
+  border-color: var(--color-primary);
+}
+
+/* ── TeamMemberCard ────────────────────────────────────────── */
+.team-member-card {
+  background: var(--color-white);
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  box-shadow: var(--shadow-sm);
+  transition: box-shadow var(--transition-base), transform var(--transition-base);
+}
+
+.team-member-card:hover {
+  box-shadow: var(--shadow-md);
+  transform: translateY(-2px);
+}
+
+.member-photo-wrap {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  overflow: hidden;
+  background: var(--color-primary-light);
+}
+
+.member-photo {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: top center;
+  transition: transform var(--transition-base);
+}
+
+.team-member-card:hover .member-photo {
+  transform: scale(1.03);
+}
+
+.member-info {
+  padding: var(--space-4);
+}
+
+.member-name {
+  font-size: var(--font-size-base);
+  font-weight: 600;
+  color: var(--color-text);
+  margin-bottom: var(--space-1);
+}
+
+.member-role {
+  font-size: var(--font-size-xs);
+  color: var(--color-primary);
+  font-weight: 500;
+  margin-bottom: var(--space-3);
+}
+
+.member-bio {
+  font-size: var(--font-size-xs);
+  color: var(--color-text-muted);
+  line-height: 1.6;
+  display: -webkit-box;
+  -webkit-line-clamp: 5;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+/* ── Institution block (Team page) ─────────────────────────── */
+.institution-block {
+  margin-bottom: var(--space-16);
+}
+
+.institution-header {
+  text-align: center;
+  margin-bottom: var(--space-8);
+}
+
+.institution-logo-img {
+  height: 60px;
+  width: auto;
+  object-fit: contain;
+  margin-inline: auto;
+  margin-bottom: var(--space-4);
+}
+
+.institution-name {
+  font-size: var(--font-size-2xl);
+  font-weight: 700;
+  color: var(--color-text);
+  margin-bottom: var(--space-1);
+}
+
+.institution-group {
+  font-size: var(--font-size-lg);
+  color: var(--color-primary);
+  font-weight: 500;
+  margin-bottom: var(--space-4);
+}
+
+.institution-desc {
+  max-width: 760px;
+  margin-inline: auto;
+  font-size: var(--font-size-base);
+  color: var(--color-text-muted);
+  line-height: 1.75;
+  text-align: center;
+}
+
+.institution-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr) 1.2fr;
+  gap: var(--space-6);
+  margin-top: var(--space-8);
+}
+
+.researchers-box {
+  background: var(--color-primary-light);
+  border-radius: var(--radius-lg);
+  padding: var(--space-6);
+}
+
+.researchers-title {
+  font-size: var(--font-size-base);
+  font-weight: 600;
+  color: var(--color-text);
+  margin-bottom: var(--space-4);
+}
+
+.researchers-list {
+  list-style: disc;
+  padding-left: var(--space-4);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+}
+
+.researchers-list li {
+  font-size: var(--font-size-sm);
+  color: var(--color-text-muted);
+}
+
+/* ── Section separator ─────────────────────────────────────── */
+.institution-separator {
+  border: none;
+  border-top: 2px solid var(--color-border);
+  margin: var(--space-12) 0;
+}
+
+@media (max-width: 768px) {
+  .hero-inner {
+    grid-template-columns: 1fr;
+  }
+
+  .hero-image-wrap {
+    height: 200px;
+  }
+
+  .hero-content {
+    padding: var(--space-8) var(--space-4);
+  }
+
+  .hero-title {
+    font-size: var(--font-size-2xl);
+  }
+
+  .logos-inner {
+    gap: var(--space-8);
+  }
+
+  .institution-grid {
+    grid-template-columns: 1fr;
+  }
+}

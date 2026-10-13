@@ -1,0 +1,171 @@
+/* ============================================================
+   sections.css — Page/section-level layout styles
+   HomeView, ProjectView, TeamView, PublicationsView
+   ============================================================ */
+
+/* ── Shared section padding ────────────────────────────────── */
+.section {
+  padding: var(--space-16) 0;
+}
+
+.section-alt {
+  background: var(--color-primary-light);
+}
+
+.section-title {
+  font-size: var(--font-size-3xl);
+  font-weight: 700;
+  color: var(--color-text);
+  margin-bottom: var(--space-4);
+}
+
+.section-lead {
+  font-size: var(--font-size-lg);
+  color: var(--color-text-muted);
+  max-width: 800px;
+  line-height: 1.75;
+  margin-bottom: var(--space-8);
+}
+
+/* ── HomeView — About ──────────────────────────────────────── */
+.about-section {
+  padding: var(--space-16) 0;
+}
+
+.about-text {
+  max-width: 860px;
+  font-size: var(--font-size-base);
+  color: var(--color-text);
+  line-height: 1.8;
+}
+
+/* ── HomeView — Objectives grid ────────────────────────────── */
+.objectives-section {
+  background: var(--color-primary-light);
+  padding: var(--space-16) 0;
+}
+
+.objectives-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: var(--space-4);
+  margin-top: var(--space-8);
+}
+
+@media (max-width: 960px) {
+  .objectives-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 580px) {
+  .objectives-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* ── ProjectView — Subprojects grid ────────────────────────── */
+.subprojects-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: var(--space-6);
+  margin-top: var(--space-8);
+}
+
+@media (max-width: 900px) {
+  .subprojects-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* ── ProjectView — Work packages list ──────────────────────── */
+.wp-section {
+  padding: var(--space-16) 0;
+}
+
+.wp-list {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+  margin-top: var(--space-8);
+}
+
+/* ── ProjectView — WP Distribution ────────────────────────── */
+.wp-dist-section {
+  background: var(--color-primary-light);
+  padding: var(--space-16) 0;
+}
+
+.wp-dist-image-wrap {
+  margin-top: var(--space-8);
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  box-shadow: var(--shadow-md);
+  background: var(--color-white);
+  padding: var(--space-4);
+}
+
+.wp-dist-image {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* ── TeamView ──────────────────────────────────────────────── */
+.team-section {
+  padding: var(--space-16) 0;
+}
+
+.team-section-title {
+  font-size: var(--font-size-3xl);
+  font-weight: 700;
+  color: var(--color-text);
+  margin-bottom: var(--space-12);
+  text-align: center;
+}
+
+/* ── PublicationsView ──────────────────────────────────────── */
+.publications-section {
+  padding: var(--space-24) 0;
+  text-align: center;
+  min-height: 60vh;
+  display: flex;
+  align-items: center;
+}
+
+.publications-inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-6);
+}
+
+.publications-icon {
+  font-size: 4rem;
+  opacity: 0.3;
+}
+
+.publications-coming-soon {
+  font-size: var(--font-size-3xl);
+  font-weight: 700;
+  color: var(--color-text-muted);
+}
+
+.publications-message {
+  font-size: var(--font-size-lg);
+  color: var(--color-text-muted);
+  max-width: 480px;
+  line-height: 1.75;
+  margin: 0;
+}
+
+/* ── Page transitions ──────────────────────────────────────── */
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 200ms ease;
+}
+
+.fade-enter-from,
+.fade-leave-to {
+  opacity: 0;
+}
