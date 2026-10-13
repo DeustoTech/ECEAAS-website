@@ -5,18 +5,21 @@
 
 /* ── Shared section padding ────────────────────────────────── */
 .section {
-  padding: var(--space-16) 0;
+  padding: var(--space-24) 0;
 }
 
 .section-alt {
   background: var(--color-primary-light);
+  border-top: 1px solid var(--color-border);
+  border-bottom: 1px solid var(--color-border);
 }
 
 .section-title {
-  font-size: var(--font-size-3xl);
-  font-weight: 700;
-  color: var(--color-text);
-  margin-bottom: var(--space-4);
+  font-size: var(--font-size-4xl);
+  font-weight: 800;
+  color: var(--color-primary);
+  margin-bottom: var(--space-6);
+  letter-spacing: -0.02em;
 }
 
 .section-lead {
@@ -24,17 +27,17 @@
   color: var(--color-text-muted);
   max-width: 800px;
   line-height: 1.75;
-  margin-bottom: var(--space-8);
+  margin-bottom: var(--space-12);
 }
 
 /* ── HomeView — About ──────────────────────────────────────── */
 .about-section {
-  padding: var(--space-16) 0;
+  padding: var(--space-24) 0;
 }
 
 .about-text {
   max-width: 860px;
-  font-size: var(--font-size-base);
+  font-size: var(--font-size-lg);
   color: var(--color-text);
   line-height: 1.8;
 }
@@ -42,7 +45,8 @@
 /* ── HomeView — Objectives grid ────────────────────────────── */
 .objectives-section {
   background: var(--color-primary-light);
-  padding: var(--space-16) 0;
+  padding: var(--space-24) 0;
+  border-top: 1px solid var(--color-border);
 }
 
 .objectives-grid {
@@ -80,7 +84,7 @@
 
 /* ── ProjectView — Work packages list ──────────────────────── */
 .wp-section {
-  padding: var(--space-16) 0;
+  padding: var(--space-24) 0;
 }
 
 .wp-list {
@@ -93,7 +97,8 @@
 /* ── ProjectView — WP Distribution ────────────────────────── */
 .wp-dist-section {
   background: var(--color-primary-light);
-  padding: var(--space-16) 0;
+  padding: var(--space-24) 0;
+  border-top: 1px solid var(--color-border);
 }
 
 .wp-dist-image-wrap {
@@ -113,15 +118,16 @@
 
 /* ── TeamView ──────────────────────────────────────────────── */
 .team-section {
-  padding: var(--space-16) 0;
+  padding: var(--space-24) 0;
 }
 
 .team-section-title {
-  font-size: var(--font-size-3xl);
-  font-weight: 700;
-  color: var(--color-text);
-  margin-bottom: var(--space-12);
+  font-size: var(--font-size-4xl);
+  font-weight: 800;
+  color: var(--color-primary);
+  margin-bottom: var(--space-16);
   text-align: center;
+  letter-spacing: -0.02em;
 }
 
 /* ── PublicationsView ──────────────────────────────────────── */
