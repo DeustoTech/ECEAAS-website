@@ -1,1 +1,72 @@
-[]
+[
+  {
+    "id": "fernandes2026pid-dfs",
+    "type": "article-journal",
+    "title": "A PID-Driven Dynamic Frequency Scaling (PID-DFS) for Reducing Energy in Edge AI Inference on Embedded Systems",
+    "author": [
+      {
+        "family": "Fernandes",
+        "given": "Alcides de Araujo"
+      },
+      {
+        "family": "Landaluce Simon",
+        "given": "Hugo"
+      },
+      {
+        "family": "Angulo Martinez",
+        "given": "Ignacio"
+      }
+    ],
+    "issued": {
+      "date-parts": [[2026]]
+    },
+    "container-title": "IEEE Embedded Systems Letters",
+    "DOI": "10.1109/LES.2026.3731051",
+    "ISSN": "1943-0671",
+    "URL": "https://ieeexplore.ieee.org/document/11682943",
+    "language": "en",
+    "license": "CC BY-NC-ND 4.0",
+    "custom": {
+      "subproject": ["DATA"],
+      "openAccess": true
+    }
+  },
+  {
+  "id": "urrutia-onate2026deployer-xai",
+  "type": "article-journal",
+  "title": "Deployer-Side XAI Instrumentation for Regulated AI: A Clinical Case Study in ICL Sizing",
+  "author": [
+    {
+      "family": "Urrutia-Onate",
+      "given": "Dorleta"
+    },
+    {
+      "family": "Onieva",
+      "given": "Enrique"
+    },
+    {
+      "family": "Perallos",
+      "given": "Asier"
+    }
+  ],
+  "issued": {
+    "date-parts": [[2026]]
+  },
+  "container-title": "International Journal of Advanced Computer Science and Applications",
+  "volume": "17",
+  "issue": "6",
+  "page": "45-61",
+  "publisher": "The Science and Information Organization",
+  "DOI": "10.14569/IJACSA.2026.0170605",
+  "URL": "https://thesai.org/Publications/ViewPaper?Volume=17&Issue=6&Code=IJACSA&SerialNo=5",
+  "abstract": "Regulated AI creates a monitoring problem for deployers who must organise human oversight, log-retention and post-market surveillance while often having access only to the prediction interface. This study specifies a deployer-side XAI instrumentation protocol for the output→action boundary, where a model output becomes a reason for action. The protocol reorganises KernelSHAP, nearest-neighbour envelope checks, bounded perturbation, and rank-order stability into a per-decision evidence record computed from predict() calls. We instantiate the protocol in a clinical case of phakic Implantable Collamer Lens sizing, using a 55-eye held-out cohort and an Extra Trees regressor for post-operative vault prediction. The record contains five signals: score_margin, constraint_enforcement, envelope_validity, decision_robustness, and record_integrity, plus two cohort-level oversight aggregates. The case study shows how the same record can support decision-time human oversight, later audit and post-market surveillance under the EU AI Act and the Medical Devices Regulation.",
+  "keyword": "Explainable AI, XAI instrumentation, human oversight, Medical Device Software, EU AI Act, ICL sizing",
+  "language": "en",
+  "license": "CC BY 4.0",
+  "custom": {
+    "subproject": ["DATA"],
+    "pdf": "https://thesai.org/Downloads/Volume17No6/Paper_5-Deployer_Side_XAI_Instrumentation_for_Regulated_AI.pdf",
+    "openAccess": true
+  }
+}
+]
