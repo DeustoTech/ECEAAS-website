@@ -18,7 +18,11 @@
       }
     ],
     "issued": {
-      "date-parts": [[2026]]
+      "date-parts": [
+        [
+          2026
+        ]
+      ]
     },
     "container-title": "IEEE Embedded Systems Letters",
     "DOI": "10.1109/LES.2026.3731051",
@@ -27,46 +31,469 @@
     "language": "en",
     "license": "CC BY-NC-ND 4.0",
     "custom": {
-      "subproject": ["DATA"],
+      "subproject": [
+        "DATA"
+      ],
       "openAccess": true
     }
   },
   {
-  "id": "urrutia-onate2026deployer-xai",
-  "type": "article-journal",
-  "title": "Deployer-Side XAI Instrumentation for Regulated AI: A Clinical Case Study in ICL Sizing",
-  "author": [
-    {
-      "family": "Urrutia-Onate",
-      "given": "Dorleta"
+    "id": "urrutia-onate2026deployer-xai",
+    "type": "article-journal",
+    "title": "Deployer-Side XAI Instrumentation for Regulated AI: A Clinical Case Study in ICL Sizing",
+    "author": [
+      {
+        "family": "Urrutia-Onate",
+        "given": "Dorleta"
+      },
+      {
+        "family": "Onieva",
+        "given": "Enrique"
+      },
+      {
+        "family": "Perallos",
+        "given": "Asier"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2026
+        ]
+      ]
     },
-    {
-      "family": "Onieva",
-      "given": "Enrique"
-    },
-    {
-      "family": "Perallos",
-      "given": "Asier"
+    "container-title": "International Journal of Advanced Computer Science and Applications",
+    "volume": "17",
+    "issue": "6",
+    "page": "45-61",
+    "publisher": "The Science and Information Organization",
+    "DOI": "10.14569/IJACSA.2026.0170605",
+    "URL": "https://thesai.org/Publications/ViewPaper?Volume=17&Issue=6&Code=IJACSA&SerialNo=5",
+    "abstract": "Regulated AI creates a monitoring problem for deployers who must organise human oversight, log-retention and post-market surveillance while often having access only to the prediction interface. This study specifies a deployer-side XAI instrumentation protocol for the output→action boundary, where a model output becomes a reason for action. The protocol reorganises KernelSHAP, nearest-neighbour envelope checks, bounded perturbation, and rank-order stability into a per-decision evidence record computed from predict() calls. We instantiate the protocol in a clinical case of phakic Implantable Collamer Lens sizing, using a 55-eye held-out cohort and an Extra Trees regressor for post-operative vault prediction. The record contains five signals: score_margin, constraint_enforcement, envelope_validity, decision_robustness, and record_integrity, plus two cohort-level oversight aggregates. The case study shows how the same record can support decision-time human oversight, later audit and post-market surveillance under the EU AI Act and the Medical Devices Regulation.",
+    "keyword": "Explainable AI, XAI instrumentation, human oversight, Medical Device Software, EU AI Act, ICL sizing",
+    "language": "en",
+    "license": "CC BY 4.0",
+    "custom": {
+      "subproject": [
+        "DATA"
+      ],
+      "pdf": "https://thesai.org/Downloads/Volume17No6/Paper_5-Deployer_Side_XAI_Instrumentation_for_Regulated_AI.pdf",
+      "openAccess": true
     }
-  ],
-  "issued": {
-    "date-parts": [[2026]]
   },
-  "container-title": "International Journal of Advanced Computer Science and Applications",
-  "volume": "17",
-  "issue": "6",
-  "page": "45-61",
-  "publisher": "The Science and Information Organization",
-  "DOI": "10.14569/IJACSA.2026.0170605",
-  "URL": "https://thesai.org/Publications/ViewPaper?Volume=17&Issue=6&Code=IJACSA&SerialNo=5",
-  "abstract": "Regulated AI creates a monitoring problem for deployers who must organise human oversight, log-retention and post-market surveillance while often having access only to the prediction interface. This study specifies a deployer-side XAI instrumentation protocol for the output→action boundary, where a model output becomes a reason for action. The protocol reorganises KernelSHAP, nearest-neighbour envelope checks, bounded perturbation, and rank-order stability into a per-decision evidence record computed from predict() calls. We instantiate the protocol in a clinical case of phakic Implantable Collamer Lens sizing, using a 55-eye held-out cohort and an Extra Trees regressor for post-operative vault prediction. The record contains five signals: score_margin, constraint_enforcement, envelope_validity, decision_robustness, and record_integrity, plus two cohort-level oversight aggregates. The case study shows how the same record can support decision-time human oversight, later audit and post-market surveillance under the EU AI Act and the Medical Devices Regulation.",
-  "keyword": "Explainable AI, XAI instrumentation, human oversight, Medical Device Software, EU AI Act, ICL sizing",
-  "language": "en",
-  "license": "CC BY 4.0",
-  "custom": {
-    "subproject": ["DATA"],
-    "pdf": "https://thesai.org/Downloads/Volume17No6/Paper_5-Deployer_Side_XAI_Instrumentation_for_Regulated_AI.pdf",
-    "openAccess": true
+  {
+    "id": "casino2026emotional",
+    "type": "article-journal",
+    "title": "Emotional and Literacy Adaptation in Large Language Model–Based Medical Guidance: Development and Usability Study",
+    "author": [
+      {
+        "family": "Casino",
+        "given": "Fran"
+      },
+      {
+        "family": "Martínez-Ballesté",
+        "given": "Antoni"
+      },
+      {
+        "family": "Batista",
+        "given": "Edgar"
+      }
+    ],
+    "container-title": "JMIR Medical Informatics",
+    "volume": "14",
+    "page": "e100369",
+    "publisher": "JMIR Publications",
+    "ISSN": "2291-9694",
+    "issued": {
+      "date-parts": [
+        [
+          2026
+        ]
+      ]
+    },
+    "DOI": "10.2196/100369",
+    "URL": "https://doi.org/10.2196/100369",
+    "custom": {
+      "subproject": [
+        "COG"
+      ],
+      "openAccess": true
+    }
+  },
+  {
+    "id": "riva2026neuroprivacy",
+    "type": "article-journal",
+    "title": "Editorial: Socio-legal, ethical, technical and medical considerations on neuroprivacy and brain-machine interaction technologies in the era of A.I.",
+    "author": [
+      {
+        "family": "Riva",
+        "given": "Giuseppe M."
+      },
+      {
+        "family": "Tiribelli",
+        "given": "Simona"
+      },
+      {
+        "family": "Ziccardi",
+        "given": "Giovanni"
+      },
+      {
+        "family": "Soekadar",
+        "given": "Surjo R."
+      },
+      {
+        "family": "Colantonio",
+        "given": "Sara"
+      },
+      {
+        "family": "Solanas",
+        "given": "Agusti"
+      }
+    ],
+    "container-title": "Frontiers in Human Dynamics",
+    "volume": "8",
+    "page": "1836498",
+    "publisher": "Frontiers",
+    "ISSN": "2673-2726",
+    "issued": {
+      "date-parts": [
+        [
+          2026
+        ]
+      ]
+    },
+    "DOI": "10.3389/fhumd.2026.1836498",
+    "URL": "https://doi.org/10.3389/fhumd.2026.1836498",
+    "custom": {
+      "subproject": [
+        "COG"
+      ],
+      "openAccess": true
+    }
+  },
+  {
+    "id": "vouvoutsis2026coding",
+    "type": "article-journal",
+    "title": "Exploring the connection between coding habits and cognitive styles in malware developers",
+    "author": [
+      {
+        "family": "Vouvoutsis",
+        "given": "Vasilis"
+      },
+      {
+        "family": "Patsakis",
+        "given": "Constantinos"
+      },
+      {
+        "family": "Casino",
+        "given": "Fran"
+      }
+    ],
+    "container-title": "Scientific Reports",
+    "publisher": "Springer Nature",
+    "ISSN": "2045-2322",
+    "issued": {
+      "date-parts": [
+        [
+          2026
+        ]
+      ]
+    },
+    "DOI": "10.1038/s41598-026-55772-7",
+    "URL": "https://doi.org/10.1038/s41598-026-55772-7",
+    "custom": {
+      "subproject": [
+        "COG"
+      ],
+      "openAccess": true
+    }
+  },
+  {
+    "id": "bernal2026metrological",
+    "type": "article-journal",
+    "title": "Beyond error metrics: A metrological trust framework for AI-driven ageing trajectories",
+    "author": [
+      {
+        "family": "Bernal",
+        "given": "Mary Carlota"
+      },
+      {
+        "family": "Bermúdez",
+        "given": "Valmore"
+      },
+      {
+        "family": "Solanas",
+        "given": "Agusti"
+      }
+    ],
+    "container-title": "IEEE Instrumentation & Measurement Magazine",
+    "volume": "29",
+    "issue": "8",
+    "page": "73-81",
+    "publisher": "IEEE",
+    "ISSN": "1094-6969",
+    "issued": {
+      "date-parts": [
+        [
+          2026
+        ]
+      ]
+    },
+    "DOI": "10.1109/MIM.2026.11224884",
+    "URL": "https://doi.org/10.1109/MIM.2026.11224884",
+    "custom": {
+      "subproject": [
+        "COG"
+      ]
+    }
+  },
+  {
+    "id": "llurba2026smartclassrooms",
+    "type": "article-journal",
+    "title": "Artificial Intelligence in Smart Classrooms: A Systematic Literature Review of Applications, Dimensions, and Teacher Roles",
+    "author": [
+      {
+        "family": "Llurba",
+        "given": "Cèlia"
+      },
+      {
+        "family": "Fretes",
+        "given": "Gabriela"
+      },
+      {
+        "family": "Martínez-Ballesté",
+        "given": "Antoni"
+      },
+      {
+        "family": "Palau",
+        "given": "Ramon"
+      }
+    ],
+    "container-title": "Encyclopedia",
+    "volume": "6",
+    "issue": "6",
+    "page": "138",
+    "publisher": "MDPI",
+    "ISSN": "2673-8392",
+    "issued": {
+      "date-parts": [
+        [
+          2026
+        ]
+      ]
+    },
+    "DOI": "10.3390/encyclopedia6060138",
+    "URL": "https://doi.org/10.3390/encyclopedia6060138",
+    "custom": {
+      "subproject": [
+        "COG"
+      ],
+      "openAccess": true
+    }
+  },
+  {
+    "id": "martinezballeste2026security",
+    "type": "article-journal",
+    "title": "Security and Privacy in Complex, Context-Aware Systems: A Comprehensive Framework",
+    "author": [
+      {
+        "family": "Martínez-Ballesté",
+        "given": "Antoni"
+      },
+      {
+        "family": "Batista",
+        "given": "Edgar"
+      },
+      {
+        "family": "Figueroa",
+        "given": "E."
+      },
+      {
+        "family": "Nouni",
+        "given": "K."
+      },
+      {
+        "family": "Solanas",
+        "given": "Agusti"
+      },
+      {
+        "family": "Casino",
+        "given": "Fran"
+      }
+    ],
+    "container-title": "International Journal of Information Security",
+    "volume": "25",
+    "page": "57",
+    "publisher": "Springer",
+    "ISSN": "1615-5270",
+    "issued": {
+      "date-parts": [
+        [
+          2026
+        ]
+      ]
+    },
+    "DOI": "10.1007/s10207-026-01228-y",
+    "URL": "https://doi.org/10.1007/s10207-026-01228-y",
+    "custom": {
+      "subproject": [
+        "COG"
+      ],
+      "openAccess": true
+    }
+  },
+  {
+    "id": "solanas2026tutorial",
+    "type": "paper-conference",
+    "title": "Tutorial: Cognitive Healthcare, Heart Simulations, and AI-based Enhancements for Health and Well-being",
+    "author": [
+      {
+        "family": "Solanas",
+        "given": "Agusti"
+      },
+      {
+        "family": "López",
+        "given": "Josep Maria"
+      },
+      {
+        "family": "Herrero",
+        "given": "Joan"
+      }
+    ],
+    "container-title": "12th International Conference on eDemocracy & eGovernment (ICEDEG)",
+    "event-place": "Lisbon, Portugal",
+    "page": "1-2",
+    "publisher": "IEEE",
+    "ISBN": "979-8-3195-3034-9",
+    "issued": {
+      "date-parts": [
+        [
+          2026
+        ]
+      ]
+    },
+    "DOI": "10.1109/ICEDEG70169.2026.11695490",
+    "URL": "https://doi.org/10.1109/ICEDEG70169.2026.11695490",
+    "custom": {
+      "subproject": [
+        "COG"
+      ]
+    }
+  },
+  {
+    "id": "batista2026smartmirrors",
+    "type": "paper-conference",
+    "title": "Smart mirrors for intrinsic capacity assessment",
+    "author": [
+      {
+        "family": "Batista",
+        "given": "Edgar"
+      },
+      {
+        "family": "Garcia-Famoso",
+        "given": "Montse"
+      },
+      {
+        "family": "Bernal",
+        "given": "Mary Carlota"
+      },
+      {
+        "family": "Casino",
+        "given": "Fran"
+      },
+      {
+        "family": "Serratosa",
+        "given": "Francesc"
+      },
+      {
+        "family": "Puigjaner",
+        "given": "Dolors"
+      },
+      {
+        "family": "Azpilicueta",
+        "given": "Leyre"
+      },
+      {
+        "family": "Angulo",
+        "given": "Ignacio"
+      },
+      {
+        "family": "Martínez-Ballesté",
+        "given": "Antoni"
+      },
+      {
+        "family": "Solanas",
+        "given": "Agusti"
+      }
+    ],
+    "container-title": "30th International Conference on Knowledge-Based and Intelligent Information & Engineering Systems (KES)",
+    "event-place": "Dublin, Ireland",
+    "collection-title": "Procedia Computer Science",
+    "volume": "292",
+    "page": "2085-2094",
+    "publisher": "Elsevier",
+    "issued": {
+      "date-parts": [
+        [
+          2026
+        ]
+      ]
+    },
+    "DOI": "10.1016/j.procs.2026.09.284",
+    "URL": "https://doi.org/10.1016/j.procs.2026.09.284",
+    "note": "CORE B",
+    "custom": {
+      "subproject": [
+        "COG",
+        "ISAC",
+        "DATA"
+      ],
+      "openAccess": true
+    }
+  },
+  {
+    "id": "batista2026eceaas",
+    "type": "paper-conference",
+    "title": "The ECEAAS Project: Supporting Healthy, Autonomous and Active Ageing through Cognitive Environments",
+    "author": [
+      {
+        "family": "Batista",
+        "given": "Edgar"
+      },
+      {
+        "family": "Casino",
+        "given": "Fran"
+      },
+      {
+        "family": "Solanas",
+        "given": "Agusti"
+      },
+      {
+        "family": "Martínez-Ballesté",
+        "given": "Antoni"
+      }
+    ],
+    "container-title": "50th Annual Computers, Software, and Applications Conference (COMPSAC)",
+    "event-place": "Madrid, Spain",
+    "page": "1650-1653",
+    "publisher": "IEEE",
+    "ISBN": "979-8-3315-4497-3",
+    "issued": {
+      "date-parts": [
+        [
+          2026
+        ]
+      ]
+    },
+    "DOI": "10.1109/COMPSAC69091.2026.00214",
+    "URL": "https://doi.org/10.1109/COMPSAC69091.2026.00214",
+    "note": "CORE B",
+    "custom": {
+      "subproject": [
+        "COG",
+        "ISAC",
+        "DATA"
+      ]
+    }
   }
-}
 ]
